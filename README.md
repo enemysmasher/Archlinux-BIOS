@@ -88,6 +88,7 @@ Na początek musimy odnaleźć dysk, na którym nasz system ma być zainstalowan
 # cfdisk /dev/sda
 ```
 **Wybierz typ tabeli dos** 
+ 
 <img src="https://user-images.githubusercontent.com/43359077/120828770-3367c080-c55d-11eb-8dcd-606b561db8d2.png" alt="drawing" width="800"/>
 
 Osobiście zalecam **minimalne** granice rozmiaru na **/** ustalić w przedziale **15 - 50GB**, oraz całą resztę dostępnej przestrzeni na **/home**.
@@ -95,30 +96,10 @@ Osobiście zalecam **minimalne** granice rozmiaru na **/** ustalić w przedziale
 sda1 przeznaczony na katalog główny (root)
 
 Zapisz tabelę na dysku twardym i wyjdź 
-```markdown
-# wipefs -a /dev/sdb 
-```
-```markdown
- (Graficzny zalecany dla początkujących)
-# cfdisk /dev/sdb
-```
-**Wybierz typ tabeli dos** 
 
 sdb1 przeznaczony na katalog domowy (home)
 
 Zapisz tabelę na dysku twardym i wyjdź 
 
  Rozmiary według uznania :smirk:
-  
-  
-  #### DOS (BIOS)
-
-| Needed | Partition | Partition type | Mount point | Flags    |
-|--------|-----------|----------------|-------------|----------|
-| ❌      | /dev/sdXY | Linux swap     | -           | -        |
-| ✔️      | /dev/sdXY | Linux          | /mnt        | Bootable |
-| ❌      | /dev/sdXY | Linux          | /mnt/home   | -        |
-  
-  
-
 
