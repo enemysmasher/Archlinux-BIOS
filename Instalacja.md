@@ -19,8 +19,8 @@ Mój komputer obsługuje **Wi-Fi**, używam go bezpośrednio. Połączenie **Wi-
 
 **root@archiso ~ # iwctl**
  
-```markdown
-[iwd]# Device List // list all network devices
+```style
+[iwd]# Device List
 ```
   
 **[iwd]#** station wlan0 get-networks // WiFi wlan0 can be used in the past is my wireless network card, and different device names may be different.
@@ -30,7 +30,7 @@ Mój komputer obsługuje **Wi-Fi**, używam go bezpośrednio. Połączenie **Wi-
  / / After entering the password, the link is successful
   
   
-  
+  Some Markdown text with <span style="color:blue">some *blue* text</span>
   
 
 
