@@ -1,6 +1,6 @@
 <div align="center">
   
-<img src="https://user-images.githubusercontent.com/43359077/120787762-f9cc9080-c52f-11eb-9762-6bfe73111e38.png" alt="drawing" width="500"/>
+<img src="https://user-images.githubusercontent.com/43359077/120787762-f9cc9080-c52f-11eb-9762-6bfe73111e38.png" alt="logo" width="500"/>
 
 <div align="left"> 
 
@@ -34,7 +34,7 @@ root@archiso ~ # iwctl
 # ping -c 5 google.pl
 ```
 ##### **Wynik podobny do tego poniżej oznacza, że połączenie działa**
-<img src="https://user-images.githubusercontent.com/43359077/120820318-b7697a80-c554-11eb-8004-0cdd49df8a41.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120820318-b7697a80-c554-11eb-8004-0cdd49df8a41.png" alt="ping" width="800"/>
 
 #### 3. Układ klawiatury
 ##### **By wybrać polski układ klawiatur**
@@ -46,11 +46,11 @@ root@archiso ~ # iwctl
 ```
 ###### **przed:**
   
-<img src="https://user-images.githubusercontent.com/43359077/120823058-4d9ea000-c557-11eb-9375-418e847a4cf4.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120823058-4d9ea000-c557-11eb-9375-418e847a4cf4.png" alt="setfont" width="800"/>
 
 ###### **po:**
   
-<img src="https://user-images.githubusercontent.com/43359077/120829346-96f1ee00-c55d-11eb-826a-3fe5b2bf2d40.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120829346-96f1ee00-c55d-11eb-826a-3fe5b2bf2d40.png" alt="setfont" width="800"/>
 
 #### 4. Zaktualizuj systemowy zegar
 ```markdown
@@ -60,7 +60,7 @@ root@archiso ~ # iwctl
 ```markdown
 # timedatectl status
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120824727-01ecf600-c559-11eb-8dc6-e117247fafd2.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120824727-01ecf600-c559-11eb-8dc6-e117247fafd2.png" alt="timedatectl" width="800"/>
   
 #### 5. Partycjonuj dyski
 ##### W przypadku, gdy dysk twardy jest nowy, tak jak w przypadku maszyny wirtualnej lub chcesz ponownie podzielić dysk na partycje, uruchom to polecenie, aby utworzyć nową tablicę partycji.
@@ -81,12 +81,12 @@ root@archiso ~ # iwctl
 ```markdown
 # fdisk -l
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120830795-29df5800-c55f-11eb-8719-29a27ce35004.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120830795-29df5800-c55f-11eb-8719-29a27ce35004.png" alt="fdisk" width="800"/>
           
 ```markdown
 # wipefs -a /dev/sda 
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120843200-1d163080-c56e-11eb-82af-1ee05d1dd587.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120843200-1d163080-c56e-11eb-82af-1ee05d1dd587.png" alt="wipefs" width="800"/>
 
 ##### **Graficzny (zalecany dla początkujących)**
 ```markdown
@@ -96,15 +96,18 @@ root@archiso ~ # iwctl
 ##### Po uruchomieniu otrzymasz monit w ten sposób:
   
 ##### **Wybierz typ tabeli dos** 
-<img src="https://user-images.githubusercontent.com/43359077/120856378-0e387980-c580-11eb-814e-49e0a23268dc.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120856378-0e387980-c580-11eb-814e-49e0a23268dc.png" alt="dos" width="800"/>
 
 ##### Następnie musimy utworzyć odpowiednio partycje **/** i **/home**.
 ##### Osobiście zalecam **minimalne** granice rozmiaru na **/** ustalić w przedziale **10 - 50GB**, oraz całą resztę dostępnej przestrzeni na **/home**.
   
 ##### Teraz zobaczysz tabelę partycji w ten sposób:
   
-<img src="https://user-images.githubusercontent.com/43359077/120857870-3aed9080-c582-11eb-8b7f-b93bd4cbb286.png" alt="drawing" width="800"/>
+##### Zobacz dostępne wolne miejsce. Tutaj mamy 1000GB. Wybierz NOWY i utwórz nową partycję.
   
+<img src="https://user-images.githubusercontent.com/43359077/120857870-3aed9080-c582-11eb-8b7f-b93bd4cbb286.png" alt="nowy" width="800"/>
+ 
+##### Przykład: Wybierz rozmiar 40GB. Wprowadź -> i wybierz podstawowy
 
 <img src="https://user-images.githubusercontent.com/43359077/120857878-3d4fea80-c582-11eb-81c8-b5fa3f9e128b.png" alt="drawing" width="800"/>
 
