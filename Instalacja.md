@@ -1,6 +1,6 @@
 <div align="center">
   
-<img src="https://user-images.githubusercontent.com/43359077/120787762-f9cc9080-c52f-11eb-9762-6bfe73111e38.png" alt="drawing" width="200"/>
+<img src="https://user-images.githubusercontent.com/43359077/120787762-f9cc9080-c52f-11eb-9762-6bfe73111e38.png" alt="drawing" width="50"/>
 
 <div align="left"> 
 
@@ -19,7 +19,7 @@ Mój komputer obsługuje **Wi-Fi**, używam go bezpośrednio. Połączenie **Wi-
 
 **root@archiso ~ # iwctl**
  
-```style
+```yaml
 [iwd]# Device List
 ```
   
@@ -31,6 +31,12 @@ Mój komputer obsługuje **Wi-Fi**, używam go bezpośrednio. Połączenie **Wi-
   
   
   Some Markdown text with <span style="color:blue">some *blue* text</span>
+  
+---
+output: pdf_document
+---
+  
+Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
   
 
 
