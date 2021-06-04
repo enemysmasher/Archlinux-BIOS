@@ -113,15 +113,10 @@ root@archiso ~ # iwctl
 ##### Flaga boot jest potrzebna dla linux
 <img src="https://user-images.githubusercontent.com/43359077/120867570-7c863780-c592-11eb-80d0-98f55e59d413.png" alt="flaga_bootowalna" width="800"/>
 
-   
-sda2 przeznaczony na katalog domowy (home)
+##### Pozwoli ci to na utworzenie kolejnych, dodatkowych partycji.
   
-Pozwoli ci to na utworzenie kolejnych, dodatkowych partycji.
-  
-Jeśli chcesz utworzyć więcej partycji to skonfiguruj partycję **sda2** jako **podstawowy** **(Primary)**, podziel ją w/g uznania a następnie zapisz nowy partycji dysku wybierając **(Write)**.
-  
-##### Jesteśmy gotowi, by przejść powoli do instalacji bazowego systemu. Musimy zamontować swoje partycje w odpowiednich miejscach za pomocą komend:
-  
+##### Jeśli chcesz utworzyć więcej partycji to skonfiguruj partycję **sda2** jako **podstawowy** **(Primary)**, podziel ją w/g uznania a następnie zapisz nowy partycji dysku wybierając **(Write)**.
+
 ![2021-06-04_202303](https://user-images.githubusercontent.com/43359077/120871900-587c2380-c59d-11eb-8c47-f3c76ab3d379.png)
   
 #####
@@ -148,7 +143,11 @@ Jeśli chcesz utworzyć więcej partycji to skonfiguruj partycję **sda2** jako 
  fdisk
   
 ![2021-06-04_202529](https://user-images.githubusercontent.com/43359077/120871970-882b2b80-c59d-11eb-8d3c-0ac5a6420ef1.png)
-
+  
+  
+  
+##### Jesteśmy gotowi, by przejść powoli do instalacji bazowego systemu. Musimy zamontować swoje partycje w odpowiednich miejscach za pomocą komend:
+  
 
   
   wybierz podstawowy
