@@ -8,7 +8,7 @@
   
 ```markdown
 # sudo dd if=path-to-image.iso  of=/dev/sdX bs=4M 
-  (Zatąp image.iso, np archlinux-2021.06.01-x86_64.iso)
+  (Zastąp image.iso, np archlinux-2021.06.01-x86_64.iso)
   (Zastąp sdX nazwą urządzenia, np.)
 ```
 ### Natomiast do wykonania bootowalnego pendrive-a pod Windowsem najlepiej jest użyć programu Etcher -> https://www.balena.io/etcher/ lub Ventoy -> https://www.ventoy.net/en/index.html. Wypalamy obraz przy pomocy programu UltraISO-> https://www.ultraiso.com np płycie a następnie uruchamiamy system z wybranego nośnika. Po uruchomieniu ujrzymy ekran do wyboru wersji systemu 32 lub 64 bitowy.
