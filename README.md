@@ -93,8 +93,7 @@ root@archiso ~ # iwctl
 # cfdisk /dev/sda
 ```
 ##### **Wybierz typ tabeli dos** 
- 
-<img src="https://user-images.githubusercontent.com/43359077/120828770-3367c080-c55d-11eb-8dcd-606b561db8d2.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120856378-0e387980-c580-11eb-814e-49e0a23268dc.png" alt="drawing" width="500"/>
 
 ##### Osobiście zalecam **minimalne** granice rozmiaru na **/** ustalić w przedziale **10 - 50GB**, oraz całą resztę dostępnej przestrzeni na **/home**.
   
