@@ -22,21 +22,12 @@ Mój komputer obsługuje **Wi-Fi**, używam go bezpośrednio. Połączenie **Wi-
 ```yaml
 [iwd]# Device List
 ```
-  
-**[iwd]#** station wlan0 get-networks // WiFi wlan0 can be used in the past is my wireless network card, and different device names may be different.
-  
-[iwd]# static wlan0 connct ssid // ssid is WiFi name
-  
- / / After entering the password, the link is successful
-  
-  
-  Some Markdown text with <span style="color:blue">some *blue* text</span>
-  
----
-output: pdf_document
----
-  
-Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
+```yaml
+[iwd]# station wlan0 get-networks 
+```
+```yaml
+[iwd]# static wlan0 connct ssid 
+```
   
 
 
