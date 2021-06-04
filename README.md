@@ -92,13 +92,16 @@ root@archiso ~ # iwctl
 ```markdown
 # cfdisk /dev/sda
 ```
+  
+##### Po uruchomieniu otrzymasz monit w ten sposób:
+  
 ##### **Wybierz typ tabeli dos** 
-<img src="https://user-images.githubusercontent.com/43359077/120856378-0e387980-c580-11eb-814e-49e0a23268dc.png" alt="drawing" width="500"/>
+<img src="https://user-images.githubusercontent.com/43359077/120856378-0e387980-c580-11eb-814e-49e0a23268dc.png" alt="drawing" width="800"/>
 
 ##### Następnie musimy utworzyć odpowiednio partycje **/** i **/home**.
 ##### Osobiście zalecam **minimalne** granice rozmiaru na **/** ustalić w przedziale **10 - 50GB**, oraz całą resztę dostępnej przestrzeni na **/home**.
   
-sda1 przeznaczony na katalog główny (root)
+##### Teraz zobaczysz tabelę partycji w ten sposób:
   
 <img src="https://user-images.githubusercontent.com/43359077/120857870-3aed9080-c582-11eb-8b7f-b93bd4cbb286.png" alt="drawing" width="800"/>
   
