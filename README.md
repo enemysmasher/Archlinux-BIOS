@@ -44,11 +44,11 @@ root@archiso ~ # iwctl
 ```markdown
 # setfont Lat2-Terminus16
 ```
-##### **przed:**
+###### **przed:**
   
 <img src="https://user-images.githubusercontent.com/43359077/120823058-4d9ea000-c557-11eb-9375-418e847a4cf4.png" alt="drawing" width="800"/>
 
-##### **po:**
+###### **po:**
   
 <img src="https://user-images.githubusercontent.com/43359077/120829346-96f1ee00-c55d-11eb-826a-3fe5b2bf2d40.png" alt="drawing" width="800"/>
 
