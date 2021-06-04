@@ -100,29 +100,19 @@ root@archiso ~ # iwctl
   
 sda1 przeznaczony na katalog główny (root)
   
-  ![2021-06-04_201747](https://user-images.githubusercontent.com/43359077/120857870-3aed9080-c582-11eb-8b7f-b93bd4cbb286.png)
+<img src="https://user-images.githubusercontent.com/43359077/120857870-3aed9080-c582-11eb-8b7f-b93bd4cbb286.png" alt="drawing" width="800"/>
 
-  ![2021-06-04_201901](https://user-images.githubusercontent.com/43359077/120857878-3d4fea80-c582-11eb-81c8-b5fa3f9e128b.png)
+<img src="https://user-images.githubusercontent.com/43359077/120857878-3d4fea80-c582-11eb-81c8-b5fa3f9e128b.png" alt="drawing" width="800"/>
 
-![2021-06-04_201928](https://user-images.githubusercontent.com/43359077/120857891-42149e80-c582-11eb-8f9a-3bfd213a9908.png)
+<img src="https://user-images.githubusercontent.com/43359077/120857891-42149e80-c582-11eb-8f9a-3bfd213a9908.png" alt="drawing" width="800"/>
 
-  ![2021-06-04_202002](https://user-images.githubusercontent.com/43359077/120857905-4640bc00-c582-11eb-886a-9493169eeba4.png)
+<img src="https://user-images.githubusercontent.com/43359077/120857905-4640bc00-c582-11eb-886a-9493169eeba4.png" alt="drawing" width="800"/>
 
-  ![2021-06-04_202236](https://user-images.githubusercontent.com/43359077/120857915-493bac80-c582-11eb-8213-de568776b3e2.png)
+<img src="https://user-images.githubusercontent.com/43359077/120857915-493bac80-c582-11eb-8213-de568776b3e2.png" alt="drawing" width="800"/>
   
-  sda2 przeznaczony na katalog domowy (home)
+sda2 przeznaczony na katalog domowy (home)
+  
 
- ![2021-06-04_202303](https://user-images.githubusercontent.com/43359077/120858239-cff08980-c582-11eb-8938-3de474357771.png)
-
-  ![2021-06-04_202326](https://user-images.githubusercontent.com/43359077/120857928-4e98f700-c582-11eb-8c96-eb92c2a5d33c.png)
-
-  ![2021-06-04_202347](https://user-images.githubusercontent.com/43359077/120857930-5193e780-c582-11eb-916e-137a027516d7.png)
-
-  ![2021-06-04_202411](https://user-images.githubusercontent.com/43359077/120857938-53f64180-c582-11eb-873a-a6d0f849ed14.png)
-
-  ![2021-06-04_202434](https://user-images.githubusercontent.com/43359077/120857943-55c00500-c582-11eb-83a0-a60f670cb3c9.png)
-
-  ![2021-06-04_202454](https://user-images.githubusercontent.com/43359077/120857949-58225f00-c582-11eb-9c9e-48adaf92dbfd.png)
 
   **Zapisz tabelę na dysku twardym i wyjdź**
   
