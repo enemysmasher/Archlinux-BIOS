@@ -17,8 +17,9 @@
 **Wi-Fi** - połącz się z siecią bezprzewodową za pomocą **iwctl**. Połącz się z **Wi-Fi** za pomocą terminala w Arch Linux i innych dystrybucjach.
 #### 1. Konfiguracja Wi-Fi – sieci bezprzewodowe
 Mój komputer obsługuje **Wi-Fi**, używam go bezpośrednio. Połączenie **Wi-Fi** **(iwctl)**
-
-**root@archiso ~ # iwctl**
+```yaml
+root@archiso ~ # iwctl
+```
 ```yaml
 [iwd]# Device List
 ```
