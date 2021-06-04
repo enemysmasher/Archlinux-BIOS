@@ -42,14 +42,13 @@ Mój komputer obsługuje **Wi-Fi**, używam go bezpośrednio. Połączenie **Wi-
 ```markdown
 # setfont Lat2-Terminus16
 ```
-**before**
+**przed:**
   
 <img src="https://user-images.githubusercontent.com/43359077/120823058-4d9ea000-c557-11eb-9375-418e847a4cf4.png" alt="drawing" width="800"/>
 
-**after**
+**po:**
   
-<img src="https://user-images.githubusercontent.com/43359077/120823594-dddce500-c557-11eb-87ce-112ef19c478c.png" alt="drawing" width="800"/>
-  
+<img src="https://user-images.githubusercontent.com/43359077/120829346-96f1ee00-c55d-11eb-826a-3fe5b2bf2d40.png" alt="drawing" width="800"/>
 
 ### 4. Zaktualizuj systemowy zegar
 ```markdown
@@ -60,6 +59,66 @@ Mój komputer obsługuje **Wi-Fi**, używam go bezpośrednio. Połączenie **Wi-
 # timedatectl status
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120824727-01ecf600-c559-11eb-8dc6-e117247fafd2.png" alt="drawing" width="800"/>
+  
+### 5. Partycjonuj dyski
+W przypadku, gdy dysk twardy jest nowy, tak jak w przypadku maszyny wirtualnej lub chcesz ponownie podzielić dysk na partycje, uruchom to polecenie, aby utworzyć nową tablicę partycji.
+**Wipefs** to polecenie czyści tablice partycji, kasuje wszystko z dysku. Potem **cfdisk** i wybierasz **dos**. Potem lecisz już z instalacją Archa.
 
+**Przygotowanie dysku:**
+#### DOS (BIOS z MBR)
+
+| Potrzebny | Partycja  | Typ partycji   | Punkt montażu | Flagi      |
+|-----------|-----------|----------------|---------------|------------|
+| ❌        | /dev/sdXY | Linux swap     | -             | -          |
+| ✔️        | /dev/sdXY | Linux          | /mnt          | Bootowalny |
+| ❌        | /dev/sdXY | Linux          | /mnt/home     | -          |
+ 
+Przy tym kroku należy postępować ostrożnie ponieważ można przypadkiem usunąć partycje.
+  
+Na początek musimy odnaleźć dysk, na którym nasz system ma być zainstalowany.
+```markdown
+# fdisk -l
+```
+![2021-06-04_180246](https://user-images.githubusercontent.com/43359077/120830795-29df5800-c55f-11eb-8719-29a27ce35004.png)
+```markdown
+# wipefs -a /dev/sda 
+```
+**Graficzny (zalecany dla początkujących)**
+```markdown
+# cfdisk /dev/sda
+```
+**Wybierz typ tabeli dos** 
+<img src="https://user-images.githubusercontent.com/43359077/120828770-3367c080-c55d-11eb-8dcd-606b561db8d2.png" alt="drawing" width="800"/>
+
+Osobiście zalecam **minimalne** granice rozmiaru na **/** ustalić w przedziale **15 - 50GB**, oraz całą resztę dostępnej przestrzeni na **/home**.
+  
+sda1 przeznaczony na katalog główny (root)
+
+Zapisz tabelę na dysku twardym i wyjdź 
+```markdown
+# wipefs -a /dev/sdb 
+```
+```markdown
+ (Graficzny zalecany dla początkujących)
+# cfdisk /dev/sdb
+```
+**Wybierz typ tabeli dos** 
+
+sdb1 przeznaczony na katalog domowy (home)
+
+Zapisz tabelę na dysku twardym i wyjdź 
+
+ Rozmiary według uznania :smirk:
+  
+  
+  #### DOS (BIOS)
+
+| Needed | Partition | Partition type | Mount point | Flags    |
+|--------|-----------|----------------|-------------|----------|
+| ❌      | /dev/sdXY | Linux swap     | -           | -        |
+| ✔️      | /dev/sdXY | Linux          | /mnt        | Bootable |
+| ❌      | /dev/sdXY | Linux          | /mnt/home   | -        |
+  
+  
 
 
