@@ -91,7 +91,7 @@ Na początek musimy odnaleźć dysk, na którym nasz system ma być zainstalowan
  
 <img src="https://user-images.githubusercontent.com/43359077/120828770-3367c080-c55d-11eb-8dcd-606b561db8d2.png" alt="drawing" width="800"/>
 
-Osobiście zalecam **minimalne** granice rozmiaru na **/** ustalić w przedziale **15 - 50GB**, oraz całą resztę dostępnej przestrzeni na **/home**.
+Osobiście zalecam **minimalne** granice rozmiaru na **/** ustalić w przedziale **10 - 50GB**, oraz całą resztę dostępnej przestrzeni na **/home**.
   
 sda1 przeznaczony na katalog główny (root)
 
