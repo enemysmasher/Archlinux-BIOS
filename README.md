@@ -45,12 +45,10 @@ root@archiso ~ # iwctl
 # setfont Lat2-Terminus16
 ```
 ###### **przed:**
-  
-<img src="https://user-images.githubusercontent.com/43359077/120823058-4d9ea000-c557-11eb-9375-418e847a4cf4.png" alt="setfont" width="800"/>
+  <img src="https://user-images.githubusercontent.com/43359077/120823058-4d9ea000-c557-11eb-9375-418e847a4cf4.png" alt="setfont" width="800"/>
 
 ###### **po:**
-  
-<img src="https://user-images.githubusercontent.com/43359077/120829346-96f1ee00-c55d-11eb-826a-3fe5b2bf2d40.png" alt="setfont" width="800"/>
+  <img src="https://user-images.githubusercontent.com/43359077/120829346-96f1ee00-c55d-11eb-826a-3fe5b2bf2d40.png" alt="setfont" width="800"/>
 
 #### 4. Zaktualizuj systemowy zegar
 ```markdown
@@ -82,7 +80,7 @@ root@archiso ~ # iwctl
 # fdisk -l
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120830795-29df5800-c55f-11eb-8719-29a27ce35004.png" alt="fdisk" width="800"/>
-          
+
 ```markdown
 # wipefs -a /dev/sda 
 ```
@@ -92,47 +90,46 @@ root@archiso ~ # iwctl
 ```markdown
 # cfdisk /dev/sda
 ```
-  
 ##### Po uruchomieniu otrzymasz monit w ten sposób:
-  
 ##### **Wybierz typ tabeli dos** 
+  
 <img src="https://user-images.githubusercontent.com/43359077/120856378-0e387980-c580-11eb-814e-49e0a23268dc.png" alt="dos" width="800"/>
 
 ##### Następnie musimy utworzyć odpowiednio partycje **/** i **/home**.
 ##### Osobiście zalecam **minimalne** granice rozmiaru na **/** ustalić w przedziale **10 - 50GB**, oraz całą resztę dostępnej przestrzeni na **/home**.
-  
 ##### Teraz zobaczysz tabelę partycji w ten sposób:
-  
 ##### Zobacz dostępne wolne miejsce. Tutaj mamy 1000GB. Wybierz NOWY i utwórz nową partycję.
-  
 <img src="https://user-images.githubusercontent.com/43359077/120857870-3aed9080-c582-11eb-8b7f-b93bd4cbb286.png" alt="nowy" width="800"/>
- 
+  
 ##### Przykład: Wybierz rozmiar 40GB. Wprowadź 
-
 <img src="https://user-images.githubusercontent.com/43359077/120857878-3d4fea80-c582-11eb-81c8-b5fa3f9e128b.png" alt="rozmiar" width="800"/>
   
 ##### wybierz podstawowy
-
-<img src="https://user-images.githubusercontent.com/43359077/120857891-42149e80-c582-11eb-8f9a-3bfd213a9908.png" alt="podstawowy" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120857891-42149e80-c582-11eb-8f9a-3bfd213a9908.png" alt="podstawowy" width="800"/> 
   
 ##### wybierz **Bootable** (flaga rozruchowa)
-  
-  
-
-
-<img src="https://user-images.githubusercontent.com/43359077/120857905-4640bc00-c582-11eb-886a-9493169eeba4.png" alt="boot" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120857905-4640bc00-c582-11eb-886a-9493169eeba4.png" alt="boot" width="800"/> 
   
 ##### Flaga boot jest potrzebna dla linux
-  
 <img src="https://user-images.githubusercontent.com/43359077/120867570-7c863780-c592-11eb-80d0-98f55e59d413.png" alt="flaga_bootowalna" width="800"/>
 
    
 sda2 przeznaczony na katalog domowy (home)
   
+Pozwoli ci to na utworzenie kolejnych, dodatkowych partycji.
+  
+  
+  
+  
+  
+   Jeśli chcesz utworzyć więcej partycji to skonfiguruj partycję **sda2** jako **podstawowy** **(Primary)**, podziel ją w/g uznania a następnie zapisz nowy obraz partycji dysku wybierając **(Write)**.
+  
+  Potwierdź wszystkie przygotowane operacje wpisując **(yes)**.
   
   Jesteśmy gotowi, by przejść powoli do instalacji bazowego systemu. Musimy zamontować swoje partycje w odpowiednich miejscach za pomocą komend:
 
-
+**Po zakończeniu działań programu wyjdź wybierając „Quit”.**
+  
   **Zapisz tabelę na dysku twardym i wyjdź**
  
   
