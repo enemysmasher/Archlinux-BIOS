@@ -26,7 +26,7 @@ Mój komputer obsługuje **Wi-Fi**, używam go bezpośrednio. Połączenie **Wi-
 [iwd]# station wlan0 get-networks 
 ```
 ```yaml
-[iwd]# static wlan0 connct ssid 
+[iwd]# static wlan0 connect "ssid" 
 ```
 ### 2. Połącz się z Internetem
 ```markdown
@@ -95,15 +95,7 @@ Na początek musimy odnaleźć dysk, na którym nasz system ma być zainstalowan
 
 Osobiście zalecam **minimalne** granice rozmiaru na **/** ustalić w przedziale **10 - 50GB**, oraz całą resztę dostępnej przestrzeni na **/home**.
   
-sda1 przeznaczony na katalog główny (root)
-  
-  
 
-Zapisz tabelę na dysku twardym i wyjdź 
-
-sda2 przeznaczony na katalog domowy (home)
-
-Zapisz tabelę na dysku twardym i wyjdź 
 
  Rozmiary według uznania :smirk:
 
