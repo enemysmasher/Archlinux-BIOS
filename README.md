@@ -118,7 +118,7 @@ sda2 przeznaczony na katalog domowy (home)
   
 Pozwoli ci to na utworzenie kolejnych, dodatkowych partycji.
   
-Jeśli chcesz utworzyć więcej partycji to skonfiguruj partycję **sda2** jako **podstawowy** **(Primary)**, podziel ją w/g uznania a następnie zapisz nowy obraz partycji dysku wybierając **(Write)**.
+Jeśli chcesz utworzyć więcej partycji to skonfiguruj partycję **sda2** jako **podstawowy** **(Primary)**, podziel ją w/g uznania a następnie zapisz nowy partycji dysku wybierając **(Write)**.
   
 ##### Jesteśmy gotowi, by przejść powoli do instalacji bazowego systemu. Musimy zamontować swoje partycje w odpowiednich miejscach za pomocą komend:
   
