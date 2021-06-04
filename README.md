@@ -116,20 +116,33 @@ root@archiso ~ # iwctl
 <img src="https://user-images.githubusercontent.com/43359077/120857891-42149e80-c582-11eb-8f9a-3bfd213a9908.png" alt="podstawowy" width="800"/>
   
 ##### wybierz **Bootable** (flaga rozruchowa)
+  
+  
+
 
 <img src="https://user-images.githubusercontent.com/43359077/120857905-4640bc00-c582-11eb-886a-9493169eeba4.png" alt="boot" width="800"/>
   
 ##### Flaga boot jest potrzebna dla linux
-
-<img src="https://user-images.githubusercontent.com/43359077/120866159-a722c100-c58f-11eb-832d-56629285fe44.png" alt="flaga_bootowalna" width="800"/>
   
+<img src="https://user-images.githubusercontent.com/43359077/120867570-7c863780-c592-11eb-80d0-98f55e59d413.png" alt="flaga_bootowalna" width="800"/>
 
-  
+   
 sda2 przeznaczony na katalog domowy (home)
   
+  
+  Jesteśmy gotowi, by przejść powoli do instalacji bazowego systemu. Musimy zamontować swoje partycje w odpowiednich miejscach za pomocą komend:
 
 
   **Zapisz tabelę na dysku twardym i wyjdź**
+ 
+  
+mkfs.ext4 -L ROOT /dev/sdXY
+
+
+
+mkfs.ext4 -L HOME /dev/sdXY
+
+
   
  Rozmiary według uznania :smirk:
 
