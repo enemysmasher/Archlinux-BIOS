@@ -4,7 +4,7 @@
 
 <div align="left"> 
 
-## Jak zainstalować Arch Linux krok po kroku ze zrzutami ekranu. Krótko: Ten samouczek pokazuje, jak zainstalować Arch Linux w łatwych do wykonania krokach. Obrazy instalacyjne Archa dostępne są do pobrania tutaj : https://www.archlinux.org/download/ Po pobraniu ISO utwórz rozruchowe urządzenie USB za pomocą polecenia dd Linux.
+#### Jak zainstalować Arch Linux krok po kroku ze zrzutami ekranu. Krótko: Ten samouczek pokazuje, jak zainstalować Arch Linux w łatwych do wykonania krokach. Obrazy instalacyjne Archa dostępne są do pobrania tutaj : https://www.archlinux.org/download/ Po pobraniu ISO utwórz rozruchowe urządzenie USB za pomocą polecenia dd Linux.
   
 ```markdown
 # sudo dd if=path-to-image.iso  of=/dev/sdX bs=4M 
@@ -79,7 +79,7 @@ Na początek musimy odnaleźć dysk, na którym nasz system ma być zainstalowan
 ```markdown
 # fdisk -l
 ```
-![2021-06-04_180246](https://user-images.githubusercontent.com/43359077/120830795-29df5800-c55f-11eb-8719-29a27ce35004.png)
+<img src="https://user-images.githubusercontent.com/43359077/120830795-29df5800-c55f-11eb-8719-29a27ce35004.png)
 ```markdown
 # wipefs -a /dev/sda 
 ```
