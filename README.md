@@ -133,11 +133,11 @@ Pozwoli ci to na utworzenie kolejnych, dodatkowych partycji.
   **Zapisz tabelę na dysku twardym i wyjdź**
  
   
-mkfs.ext4 -L ROOT /dev/sdXY
+mkfs.ext4 -L root /dev/sdXY
 
 
 
-mkfs.ext4 -L HOME /dev/sdXY
+mkfs.ext4 -L home /dev/sdXY
 
 
   
