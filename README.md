@@ -88,15 +88,15 @@ root@archiso ~ # iwctl
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120843200-1d163080-c56e-11eb-82af-1ee05d1dd587.png" alt="drawing" width="800"/>
 
-**Graficzny (zalecany dla początkujących)**
+##### **Graficzny (zalecany dla początkujących)**
 ```markdown
 # cfdisk /dev/sda
 ```
-**Wybierz typ tabeli dos** 
+##### **Wybierz typ tabeli dos** 
  
 <img src="https://user-images.githubusercontent.com/43359077/120828770-3367c080-c55d-11eb-8dcd-606b561db8d2.png" alt="drawing" width="800"/>
 
-Osobiście zalecam **minimalne** granice rozmiaru na **/** ustalić w przedziale **10 - 50GB**, oraz całą resztę dostępnej przestrzeni na **/home**.
+##### Osobiście zalecam **minimalne** granice rozmiaru na **/** ustalić w przedziale **10 - 50GB**, oraz całą resztę dostępnej przestrzeni na **/home**.
   
 
 
