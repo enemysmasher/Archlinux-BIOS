@@ -101,6 +101,7 @@ root@archiso ~ # iwctl
 sda1 przeznaczony na katalog główny (root)
   
 <img src="https://user-images.githubusercontent.com/43359077/120857870-3aed9080-c582-11eb-8b7f-b93bd4cbb286.png" alt="drawing" width="800"/>
+  
 
 <img src="https://user-images.githubusercontent.com/43359077/120857878-3d4fea80-c582-11eb-81c8-b5fa3f9e128b.png" alt="drawing" width="800"/>
 
@@ -108,7 +109,7 @@ sda1 przeznaczony na katalog główny (root)
 
 <img src="https://user-images.githubusercontent.com/43359077/120857905-4640bc00-c582-11eb-886a-9493169eeba4.png" alt="drawing" width="800"/>
 
-<img src="https://user-images.githubusercontent.com/43359077/120857915-493bac80-c582-11eb-8213-de568776b3e2.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120857915-493bac80-c582-11eb-8213-de568776b3e2.png" alt="bootowalny" width="800"/>
   
 sda2 przeznaczony na katalog domowy (home)
   
