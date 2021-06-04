@@ -107,15 +107,23 @@ root@archiso ~ # iwctl
   
 <img src="https://user-images.githubusercontent.com/43359077/120857870-3aed9080-c582-11eb-8b7f-b93bd4cbb286.png" alt="nowy" width="800"/>
  
-##### Przykład: Wybierz rozmiar 40GB. Wprowadź -> i wybierz podstawowy
+##### Przykład: Wybierz rozmiar 40GB. Wprowadź 
 
-<img src="https://user-images.githubusercontent.com/43359077/120857878-3d4fea80-c582-11eb-81c8-b5fa3f9e128b.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120857878-3d4fea80-c582-11eb-81c8-b5fa3f9e128b.png" alt="rozmiar" width="800"/>
+  
+##### wybierz podstawowy
 
-<img src="https://user-images.githubusercontent.com/43359077/120857891-42149e80-c582-11eb-8f9a-3bfd213a9908.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120857891-42149e80-c582-11eb-8f9a-3bfd213a9908.png" alt="podstawowy" width="800"/>
+  
+##### wybierz **Bootable** (flaga rozruchowa)
 
-<img src="https://user-images.githubusercontent.com/43359077/120857905-4640bc00-c582-11eb-886a-9493169eeba4.png" alt="drawing" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120857905-4640bc00-c582-11eb-886a-9493169eeba4.png" alt="boot" width="800"/>
+  
+##### Flaga boot jest potrzebna dla linux
 
-<img src="https://user-images.githubusercontent.com/43359077/120857915-493bac80-c582-11eb-8213-de568776b3e2.png" alt="bootowalny" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120866159-a722c100-c58f-11eb-832d-56629285fe44.png" alt="flaga_bootowalna" width="800"/>
+  
+
   
 sda2 przeznaczony na katalog domowy (home)
   
