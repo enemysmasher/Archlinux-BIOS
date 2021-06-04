@@ -81,7 +81,8 @@ root@archiso ~ # iwctl
 ```markdown
 # fdisk -l
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120830795-29df5800-c55f-11eb-8719-29a27ce35004.png)
+<img src="https://user-images.githubusercontent.com/43359077/120830795-29df5800-c55f-11eb-8719-29a27ce35004.png" alt="drawing" width="800"/>
+          
 ```markdown
 # wipefs -a /dev/sda 
 ```
