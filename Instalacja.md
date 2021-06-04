@@ -11,7 +11,6 @@
   (Zastąp sdX nazwą urządzenia, np.)
 ```
 ### Natomiast do wykonania bootowalnego pendrive-a pod Windowsem najlepiej jest użyć programu Etcher -> https://www.balena.io/etcher/ lub Ventoy -> https://www.ventoy.net/en/index.html. Wypalamy obraz przy pomocy programu UltraISO-> https://www.ultraiso.com np płycie a następnie uruchamiamy system z wybranego nośnika. Po uruchomieniu ujrzymy ekran do wyboru wersji systemu 32 lub 64 bitowy.
-  
 ### Przed instalacją:  
 **Ethernet** - podłącz kabel sieciowy. Na czas instalacji podepnij się do internetu najlepiej przez kabel. 
 **Wi-Fi** - połącz się z siecią bezprzewodową za pomocą **iwctl**. Połącz się z **Wi-Fi** za pomocą terminala w Arch Linux i innych dystrybucjach.
@@ -19,16 +18,20 @@
 Mój komputer obsługuje **Wi-Fi**, używam go bezpośrednio. Połączenie **Wi-Fi** **(iwctl)**
 
 **root@archiso ~ # iwctl**
-
-
-$iwctl
- [IWD] # Device List // list all network devices
+ 
+```markdown
+[iwd]# Device List // list all network devices
+```
   
- [IWD] # station wlan0 get-networks // WiFi wlan0 can be used in the past is my wireless network card, and different device names may be different.
+**[iwd]#** station wlan0 get-networks // WiFi wlan0 can be used in the past is my wireless network card, and different device names may be different.
   
- [IWD] # static wlan0 connct ssid // ssid is WiFi name
+[iwd]# static wlan0 connct ssid // ssid is WiFi name
   
  / / After entering the password, the link is successful
+  
+  
+  
+  
 
 
 
