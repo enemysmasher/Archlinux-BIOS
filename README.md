@@ -66,7 +66,7 @@ root@archiso ~ # iwctl
 ##### W przypadku, gdy dysk twardy jest nowy, tak jak w przypadku maszyny wirtualnej lub chcesz ponownie podzielić dysk na partycje, uruchom to polecenie, aby utworzyć nową tablicę partycji.
 ##### **Wipefs** to polecenie czyści tablice partycji, kasuje wszystko z dysku. Potem **cfdisk** i wybierasz **dos**. Potem lecisz już z instalacją Archa.
 
-**Przygotowanie dysku:**
+##### **Przygotowanie dysku:**
 ##### DOS (BIOS z MBR)
 
 | Potrzebny | Partycja  | Typ partycji   | Punkt montażu | Flagi      |
