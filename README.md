@@ -28,7 +28,7 @@ root@archiso ~ # iwctl
 [iwd]# station wlan0 get-networks 
 ```
 ```yaml
-[iwd]# static wlan0 connect "ssid" 
+[iwd]# station wlan0 connect ssid 
 ```
 #### 2. Połącz się z Internetem
 ```markdown
