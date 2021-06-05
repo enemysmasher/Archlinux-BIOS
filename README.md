@@ -221,7 +221,7 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```markdown
 # locale-gen
 ```
-#### 13. Plik konfiguracyjny dla ustawień regionalnych - Ustaw zmienną. 
+#### 13. Plik konfiguracyjny dla ustawień regionalnych - Ustaw zmienną
 ```markdown
 # nano /etc/locale.conf
 ```
