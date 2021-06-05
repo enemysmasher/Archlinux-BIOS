@@ -204,6 +204,9 @@ root@archiso ~ # iwctl
 ```markdown
 # nano /etc/locale.gen
 ```
+ 
+<img src="https://user-images.githubusercontent.com/43359077/120886743-c8b39500-c5ef-11eb-95cb-d7af41100399.png" alt="locale-gen"/>
+
 ##### Za pomocą klawiszy strzałek przewiń ekran w dół i znajdź linię.
 ```js
 #en_US.UTF-8 
@@ -217,11 +220,15 @@ en_US.UTF-8
 pl_PL.UTF-8
 ```
 zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
+  
+<img src="https://user-images.githubusercontent.com/43359077/120886633-3dd29a80-c5ef-11eb-987d-0f59fb69bc8d.png" alt="locale_gen"/>
 
 ##### Następnie musisz wygenerować ustawienia regionalne
 ```markdown
 # locale-gen
 ```
+<img src="https://user-images.githubusercontent.com/43359077/120886947-b423cc80-c5f0-11eb-9dff-9df183597f9c.png" alt="generowanie"/>
+
 #### 13. Plik konfiguracyjny dla ustawień regionalnych - Ustaw zmienną
 ```markdown
 # nano /etc/locale.conf
