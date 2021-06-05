@@ -4,6 +4,14 @@
 
 <div align="left"> 
 
+##### Archlinux jest to świetny system dla naszego desktopa?
+##### Sprawdźmy to!
+#### Spis treści
+  
+
+  
+  
+  
 ##### Jak zainstalować Arch Linux krok po kroku ze zrzutami ekranu. Krótko: Ten samouczek pokazuje, jak zainstalować Arch Linux w łatwych do wykonania krokach. Obrazy instalacyjne Archa dostępne są do pobrania tutaj : https://www.archlinux.org/download/ Po pobraniu ISO utwórz rozruchowe urządzenie USB za pomocą polecenia **dd** Linux.
   
 ```markdown
@@ -11,6 +19,9 @@
   (Zastąp image.iso, np archlinux-2021.06.01-x86_64.iso)
   (Zastąp sdX nazwą urządzenia, np.)
 ```
+  
+  
+##### [Do góry](#Spis-treści)
 ##### Natomiast do wykonania bootowalnego pendrive-a pod Windowsem najlepiej jest użyć programu Etcher -> https://www.balena.io/etcher/ lub Ventoy -> https://www.ventoy.net/en/index.html. Wypalamy obraz przy pomocy programu UltraISO-> https://www.ultraiso.com np płycie a następnie uruchamiamy system z wybranego nośnika. Po uruchomieniu ujrzymy ekran do wyboru wersji systemu 32 lub 64 bitowy.
 #### Przed instalacją:  
 ##### **Ethernet** - podłącz kabel sieciowy. Na czas instalacji podepnij się do internetu najlepiej przez kabel. 
