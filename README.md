@@ -88,6 +88,7 @@ root@archiso ~ # iwctl
 
 ##### **Graficzny (zalecany dla początkujących)**
 ##### cfdisk – szybciej, wygodniej, lepiej?
+> >>>>>>>>>> Ja preferuje cfdisk - prosta i przejrzysta :hearts:
 
 ```markdown
 # cfdisk /dev/sda
@@ -138,6 +139,7 @@ root@archiso ~ # iwctl
   
 <img src="https://user-images.githubusercontent.com/43359077/120871922-6336b880-c59d-11eb-9713-c4356958c52f.png" alt="quit" width="800"/>
 
+##### Jak widać na dysku są 2 partycje. Jedna to **sda1** na której jest zainstalowany **root** a druga **sda2** to **home**
 ```markdown
 # fdisk -l
 ```
