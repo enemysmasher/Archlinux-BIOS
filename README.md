@@ -375,6 +375,16 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 # reboot
 ```
 ##### Jeśli wszystko zrobiłeś poprawnie, po ponownym uruchomieniu zobaczysz ekran powitalny GRUB z zainstalowanym Arch Linux.
+<img src="https://user-images.githubusercontent.com/43359077/120901140-58316600-c639-11eb-9d9f-ea33b0c63cc6.png" alt="grub" width="800"/> 
+  
+#### 25. Logowanie się do systemu
+##### Po ponownym uruchomieniu systemu należy się zalogować wpisując login
+```marksown
+archtest login: root
+```
+
+  
+
   
   
 
