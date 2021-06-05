@@ -325,7 +325,7 @@ Konfiguracja sieci
 
   
 <details>
-<summary>Uwaga</summary>
+<summary>Uwaga test</summary>
 Komunikat pojawia się pewnie wprowadzili jakiś mechanizm wykrywania pirackich licencji jak kiedyś był w Windows WGA 
 </details>
 
