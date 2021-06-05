@@ -205,8 +205,8 @@ root@archiso ~ # iwctl
 ```markdown
 # nano /etc/locale.gen
 ```
-  
 <img src="https://user-images.githubusercontent.com/43359077/120886743-c8b39500-c5ef-11eb-95cb-d7af41100399.png" alt="locale-gen" width="800"/>
+
 ##### Za pomocą klawiszy strzałek przewiń ekran w dół i znajdź linię.
 ```js
 #en_US.UTF-8 
@@ -313,23 +313,26 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 # pacman -S networkmanager 
 
 # pacman -S network-manager-applet
-
-Konfiguracja sieci
-
+```
+##### Konfiguracja sieci
+```markdown
 # pacman -S iw iwd dialog net-tools wireless_tools wpa_supplicant
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120894236-c5340400-c617-11eb-945f-cb5e2ce5333f.png" alt="network" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120894687-13e29d80-c61a-11eb-9c9d-dee32b5bf242.png" alt="network" width="800"/>
 
-  
 ##### Aktywuj usługi do następnego ponownego uruchomienia
  ```markdown 
 # systemctl enable NetworkManager
 ```
-
+<img src="https://user-images.githubusercontent.com/43359077/120894858-d3375400-c61a-11eb-8fd7-3f03db7c1516.png" alt="enable_networkmanager" width="800"/>
+  
 #### 19. Tworzenie ramdisc
 ```markdown
-# mkinitcpio -p linux
+# mkinitcpio -P linux
 ```
+<img src="https://user-images.githubusercontent.com/43359077/120895213-442b3b80-c61c-11eb-808d-300e6d853eb6.png" alt="mkinitcpio" width="800"/>
+  
+  
 #### 20. Hasło użytkownika root
 ```markdown
 # passwd
