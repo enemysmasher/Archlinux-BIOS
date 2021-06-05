@@ -187,6 +187,17 @@ linux-headers
 ```
 ##### Przy pytaniu, jakie pakiety zainstalować wcisnąć ENTER. Poczekaj chwilę, aż się zakończy.
   
+  
+#### 8. Generowanie fstab
+```markdown
+# genfstab -U -p /mnt >> /mnt/etc/fstab
+```
+##### oraz sprawdzenie czy jest poprawny
+```markdown
+# genfstab -U -p /mnt /mnt/etc/fstab
+```
+
+
 
   
 
