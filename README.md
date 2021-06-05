@@ -9,7 +9,7 @@
 #### Spis treści
   
 ## Spis treści 
-* [**Pochodne dystrybucje**](#Przed instalacją)
+* [**Pochodne dystrybucje**].(#Przed instalacją)
   * [**Wstępna konfiguracja**](#Wstępna-konfiguracja)
 * [**Partycjonowanie dysku**](#Partycjonowanie-i-formatowanie-dysków)
   * [**LVM**](#LVM)
@@ -29,6 +29,7 @@
   * [**Konfiguracja ZSH**](#Konfiguracja-ZSH)
   * [**Konfiguracja VIMa**](#Konfiguracja-VIMa)
 * [**Podsumowanie**](#Podsumowanie)
+*
 
 ## Arch Linux
 
