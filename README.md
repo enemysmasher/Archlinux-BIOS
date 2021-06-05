@@ -184,8 +184,8 @@ base-devel ten pakiet zawiera narzędzia programistyczne & niektóre narzędzia 
 linux jądro linuksa.
 linux-firmware zapewnia oprogramowanie układowe (sterowniki) dla niektórych urządzeń poprawność, takich jak gładziki, karty Wi-Fi, itp.
 linux-headers 
-Przy pytaniu, jakie pakiety zainstalować wcisnąć ENTER. Poczekaj chwilę, aż się zakończy.
 ```
+##### Przy pytaniu, jakie pakiety zainstalować wcisnąć ENTER. Poczekaj chwilę, aż się zakończy.
   
 
   
