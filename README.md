@@ -379,13 +379,39 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
   
 #### 25. Logowanie się do systemu
 ##### Po ponownym uruchomieniu systemu należy się zalogować wpisując login
-```marksown
+```markdown
 archtest login: root
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120901471-654f5480-c63b-11eb-806d-743359679deb.png" alt="grub" width="800"/> 
 
+##### Aby kontynuować, zaloguj się jako użytkownik root z wcześniej ustawionym hasłem.
+#### 26. Dodaj użytkownika
+##### Zamiast tego wpisz swoje własne **tester**
+```markdown
+# useradd -m tester
+```
+##### Utwórz również hasło dla nowego użytkownika
+```markdown
+# passwd tester
+```
+##### Po wciśnięciu ENTER należy dwa razy podać hasło nazwa_użytkownika 
 
-  
+#### 27. Następnie włącz uprawnienia sudoers dla nowo utworzonego użytkownika
+
+Najprostsze podstawowe ustawienie można przeprowadzić wydając z konta "root" polecenie :
+
+# nano /etc/sudoers
+Za pomocą klawiszy strzałek przewiń ekran w dół i znajdź linię
+
+root ALL=(ALL) ALL
+
+gdzie "tester ALL=(ALL) ALL" to nazwa zwykłego użytkownika. 
+
+ 
+
+wpisać poniższy tekst:
+
+tester ALL=(ALL) ALL
 
   
   
