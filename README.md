@@ -357,6 +357,27 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 # grub-install --target=i386-pc --recheck /dev/sda 
 # grub-mkconfig -o /boot/grub/grub.cfg
 ```
+<img src="https://user-images.githubusercontent.com/43359077/120898730-6af16e00-c62c-11eb-8ca1-fe472c493d72.png" alt="grub" width="800"/> 
+  
+#### 23. Teraz wiele osób ma dyski SSD, które obsługują TRIM. Dla bezpiecznej, cotygodniowej usługi TRIM na dyskach SSD i wszystkich innych urządzeniach, które umożliwiają obsługę TRIM:
+```markdown
+# systemctl enable fstrim.timer
+```
+<img src="https://user-images.githubusercontent.com/43359077/120900751-d5a7a700-c636-11eb-828b-12d854702c1b.png" alt="fstrim" width="800"/> 
+  
+ #### 24. Wyjście z chroot
+```markdown
+# exit
+```
+##### Odmontowanie partycji i restart systemu
+```markdown
+# umount -Rv /mnt
+# reboot
+```
+##### Jeśli wszystko zrobiłeś poprawnie, po ponownym uruchomieniu zobaczysz ekran powitalny GRUB z zainstalowanym Arch Linux.
+
+ 
+
 
   
   
