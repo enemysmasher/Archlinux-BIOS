@@ -162,6 +162,8 @@ root@archiso ~ # iwctl
 # mkdir /mnt/home
 # mount /dev/sda2 /mnt/home
 ```
+<img src="https://user-images.githubusercontent.com/43359077/120877202-7e152700-c5b5-11eb-958c-4cf2f534b8fd.png" alt="mount" />
+
 ##### Sprawdź punkty montażowe, czy zostały pomyślnie utworzone
 ```markdown
 lsblk -f
