@@ -314,7 +314,7 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```markdown
 # pacman -S iw iwd dialog net-tools wireless_tools wpa_supplicant
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120894687-13e29d80-c61a-11eb-9c9d-dee32b5bf242.png" alt="network" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120896952-1944e580-c624-11eb-8ee7-784f76a5c771.png" alt="network" width="800"/>
 
 ##### Aktywuj usługi do następnego ponownego uruchomienia
  ```markdown 
