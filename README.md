@@ -262,7 +262,7 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 # nano /etc/hostname
 ```
 ##### wpisać poniższy tekst:
-```js
+```yaml
 archtest
 ```
 zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
