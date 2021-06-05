@@ -173,7 +173,7 @@ root@archiso ~ # iwctl
 #### 7. Instalacja systemu podstawowego
 ##### Teraz rozpoczynamy proces instalacji.
 ```markdown
-# pacstrap -i /mnt base base-devel linux linux-firmware nano dhcpcd usbutils e2fsprogs
+# pacstrap -i /mnt base base-devel linux linux-firmware linux-headers nano dhcpcd usbutils e2fsprogs
 ```
 ##### edytor tekstu (taki jak nano), który konieczny będzie do edytowania plików konfiguracyjnych
 ##### narzędzia do obsługi systemów plików (e2fsprogs dla ext4)
