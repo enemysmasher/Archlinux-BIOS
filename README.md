@@ -8,8 +8,31 @@
 ##### Sprawdźmy to!
 #### Spis treści
   
-* [Konfiguracja WiFi](#Konfiguracja Wi-Fi – sieci bezprzewodowe)
-  
+## Spis treści 
+* [**Pochodne dystrybucje**](#Pochodne-dystrybucje-Archa)
+  * [**Wstępna konfiguracja**](#Wstępna-konfiguracja)
+* [**Partycjonowanie dysku**](#Partycjonowanie-i-formatowanie-dysków)
+  * [**LVM**](#LVM)
+  * [**LVM i LUKS**](#LVM-i-LUKS)
+  * [**Klasycznie**](#Klasycznie)
+* [**Instalacja i podstawowa konfiguracja**](#Instalacja-i-podstawowa-konfiguracja)
+    * [**Bootloader**](#Bootloader-systemd-boot)
+    * [**Pliki sudoers i pacman.conf**](#Pliki-sudoers-i-pacman.conf)  
+* [**Środowiska graficzne - wstęp, które wybrać, GTK i Qt**](#Środowiska-graficzne)
+* [**Środowisko graficzne XFCE**](#Środowisko-graficzne-XFCE)
+  * [**Konfiguracja SDDM**](#Konfiguracja-SDDM)
+  * [**Konfiguracja OpenBoxa**](#Konfiguracja-OpenBoxa)
+  * [**Konfiguracja XFCE**](#Konfiguracja-XFCE)  
+* [**Środowisko graficzne KDE**](#Środowisko-graficzne-KDE)
+* [**Programy i aplikacje użytkowe**](#Programy-i-aplikacje-użytkowe)
+  * [**Konfiguracja i3lock**](#Konfiguracja-i3lock)
+  * [**Konfiguracja ZSH**](#Konfiguracja-ZSH)
+  * [**Konfiguracja VIMa**](#Konfiguracja-VIMa)
+* [**Podsumowanie**](#Podsumowanie)
+
+## Arch Linux
+
+###### [Do góry](#Spis-treści)
   
   
 ##### Jak zainstalować Arch Linux krok po kroku ze zrzutami ekranu. Krótko: Ten samouczek pokazuje, jak zainstalować Arch Linux w łatwych do wykonania krokach. Obrazy instalacyjne Archa dostępne są do pobrania tutaj : https://www.archlinux.org/download/ Po pobraniu ISO utwórz rozruchowe urządzenie USB za pomocą polecenia **dd** Linux.
