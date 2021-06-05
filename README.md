@@ -259,6 +259,8 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```markdown
 # nano /etc/vconsole.conf
 ```
+<img src="https://user-images.githubusercontent.com/43359077/120888305-dec55380-c5f7-11eb-8f19-d9479ee7fd83.png" alt="vconsole"/>
+
 ##### wpisać poniższy tekst:
 ```yaml
 KEYMAP=pl
@@ -271,6 +273,8 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```markdown
 # nano /etc/hostname
 ```
+<img src="https://user-images.githubusercontent.com/43359077/120888400-71fe8900-c5f8-11eb-81eb-411357044aa0.png" alt="hostname"/>
+
 ##### wpisać poniższy tekst:
 ```yaml
 archtest
