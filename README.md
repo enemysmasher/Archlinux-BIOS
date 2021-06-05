@@ -422,11 +422,6 @@ tester ALL=(ALL) ALL
   
 <img src="https://user-images.githubusercontent.com/43359077/120902346-32f42600-c640-11eb-80bc-6b7862fff742.png" alt="root2" width="800"/>
 
-  
-  
-
- 
-
 
   
   
@@ -435,69 +430,13 @@ tester ALL=(ALL) ALL
   
   
   
-  
-  
-  
-
-  
-<details>
-<summary>Uwaga test</summary>
-Komunikat pojawia się pewnie wprowadzili jakiś mechanizm wykrywania pirackich licencji jak kiedyś był w Windows WGA 
-</details>
-
-
-  1. First item with a hidden code block
-<details>
-  <summary>GNOME</summary>
-
-  ```markdown
-  long console output here
-  ```
-</details>
-
-2. Second item with a hidden code block
 <details>
   <summary>KDE</summary>
 
   ```markdown
-  long console output here
+  pacman -S plasma-desktop konsole dolphin sddm
   ```
 </details>
 
-3. Third item with a hidden code block
-<details>
-  <summary>XFCE</summary>
 
-  ```markdown
-  long console output here
-  ```
-</details>
-
-  
- <details>
-  <summary>stuff with *mark* **down** in `summary` doesn't work any more, use HTML <i>italics</i> and <b>bold</b> instead in <code>&lt;summary&gt;</code> (<i>click to expand</i>)</summary>
-  <!-- have to be followed by an empty line! -->
-
-## *formatted* **heading** with [a](link)
-```java
-code block
-```
-
-  <details>
-    <summary><u>nested</u> <b>stuff</b> (<i>click to expand</i>)</summary>
-    <!-- have to be followed by an empty line! -->
-
-A bit more than normal indentation is necessary to get the nesting correct,
- 1. list
- 1. with
-    1. nested
-    1. items
-        ```java
-        // including code
-        ```
-    1. blocks
- 1. and continued non-nested
-
-  </details>
-</details>
 
