@@ -169,6 +169,16 @@ root@archiso ~ # iwctl
 # lsblk -f
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120877278-fd0a5f80-c5b5-11eb-835b-1df822c4a560.png" alt="lsblk-f" />
+  
+#### 7. Instalacja systemu podstawowego
+##### Teraz rozpoczynamy proces instalacji.
+```markdown
+# pacstrap -i /mnt base base-devel linux linux-firmware nano dhcpcd usbutils e2fsprogs
+```
+##### edytor tekstu (taki jak nano), który konieczny będzie do edytowania plików konfiguracyjnych
+##### narzędzia do obsługi systemów plików (e2fsprogs dla ext4)
+##### pakiety do połączenia z siecią (między innymi dhcpcd i wpa_supplicant czy jej obsługi (np.dialog umożliwiający uruchomienie wifi-menu).
+##### Przy pytaniu, jakie pakiety zainstalować wcisnąć ENTER. Poczekaj chwilę, aż się zakończy.
 
   
 
