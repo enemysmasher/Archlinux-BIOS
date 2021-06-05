@@ -204,7 +204,6 @@ root@archiso ~ # iwctl
 ```markdown
 # nano /etc/locale.gen
 ```
- 
 <img src="https://user-images.githubusercontent.com/43359077/120886743-c8b39500-c5ef-11eb-95cb-d7af41100399.png" alt="locale-gen"/>
 
 ##### Za pomocą klawiszy strzałek przewiń ekran w dół i znajdź linię.
@@ -233,6 +232,9 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```markdown
 # nano /etc/locale.conf
 ```
+<img src="https://user-images.githubusercontent.com/43359077/120887670-86d91d80-c5f4-11eb-9e90-89a4b4499e28.png" alt="locale.conf"/>
+
+  
 ##### wpisać poniższy tekst:
 ```yaml
 LANG=pl_PL.UTF-8
