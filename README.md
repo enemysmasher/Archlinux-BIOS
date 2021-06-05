@@ -309,8 +309,6 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ##### Pobranie pakietów i instalacja systemu mieści się w jednej komendzie:
 ```markdown
 # pacman -S networkmanager 
-
-# pacman -S network-manager-applet
 ```
 ##### Konfiguracja sieci
 ```markdown
