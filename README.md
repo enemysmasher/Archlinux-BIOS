@@ -171,6 +171,7 @@ root@archiso ~ # iwctl
   
 #### 8. Instalacja systemu podstawowego
 ##### Teraz rozpoczynamy proces instalacji.
+##### Pobranie pakietów i instalacja systemu mieści się w jednej komendzie:
 ```markdown
 # pacstrap -i /mnt base base-devel bash-completion linux linux-firmware linux-headers nano
 ```
@@ -284,12 +285,16 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```markdown
 # nano /etc/hosts
 ```
+<img src="https://user-images.githubusercontent.com/43359077/120892829-5a32ff00-c610-11eb-896b-fa3100be471f.png" alt="hosts"/>
+
 ##### wpisać poniższy tekst:
 ```js
 127.0.0.1       localhost
 ::1             localhost
 127.0.1.1       archtest.localdomain        archtest
 ```
+ <img src="https://user-images.githubusercontent.com/43359077/120892943-e1807280-c610-11eb-8eca-13fa8144d5c1.png" alt="localhost"/>
+ 
 zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 #### 17. Konfiguracja sieci
 ##### Twój interfejs sieciowy jest wymieniony i włączony. Kabel jest podłączony lub podłączony do bezprzewodowej sieci LAN
@@ -297,8 +302,11 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```markdown
 # systemctl enable dhcpcd
 ```
+<img src="https://user-images.githubusercontent.com/43359077/120892992-31f7d000-c611-11eb-85f6-c67202d97fb9.png" alt="dhcpcd"/>
+
 #### 18. Włącz sieć
 ##### Najpierw zainstaluj menedżera sieci:
+##### Pobranie pakietów i instalacja systemu mieści się w jednej komendzie:
 ```markdown
 # pacman -S networkmanager 
 
@@ -308,6 +316,8 @@ Konfiguracja sieci
 
 # pacman -S iw iwd dialog net-tools wireless_tools wpa_supplicant
 ```
+<img src="
+  
 ##### Aktywuj usługi do następnego ponownego uruchomienia
  ```markdown 
 # systemctl enable NetworkManager
@@ -330,7 +340,58 @@ Komunikat pojawia się pewnie wprowadzili jakiś mechanizm wykrywania pirackich 
 </details>
 
 
-  
+  1. First item with a hidden code block
+<details>
+  <summary>GNOME</summary>
+
+  ```markdown
+  long console output here
+  ```
+</details>
+
+2. Second item with a hidden code block
+<details>
+  <summary>KDE</summary>
+
+  ```markdown
+  long console output here
+  ```
+</details>
+
+3. Third item with a hidden code block
+<details>
+  <summary>XFCE</summary>
+
+  ```markdown
+  long console output here
+  ```
+</details>
 
   
- 
+ <details>
+  <summary>stuff with *mark* **down** in `summary` doesn't work any more, use HTML <i>italics</i> and <b>bold</b> instead in <code>&lt;summary&gt;</code> (<i>click to expand</i>)</summary>
+  <!-- have to be followed by an empty line! -->
+
+## *formatted* **heading** with [a](link)
+```java
+code block
+```
+
+  <details>
+    <summary><u>nested</u> <b>stuff</b> (<i>click to expand</i>)</summary>
+    <!-- have to be followed by an empty line! -->
+
+A bit more than normal indentation is necessary to get the nesting correct,
+ 1. list
+ 1. with
+    1. nested
+    1. items
+        ```java
+        // including code
+        ```
+    1. blocks
+ 1. and continued non-nested
+
+  </details>
+</details>
+
