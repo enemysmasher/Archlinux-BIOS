@@ -218,15 +218,15 @@ pl_PL.UTF-8
 zapisać **ctrl+O** -(zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 
 ##### Następnie musisz wygenerować ustawienia regionalne.
-```js
+```markdown
 # locale-gen
 ```
-13.Plik konfiguracyjny dla ustawień regionalnych - Ustaw zmienną 
-
+#### 13. Plik konfiguracyjny dla ustawień regionalnych - Ustaw zmienną. 
+```markdown
 # nano /etc/locale.conf
-
-wpisać poniższy tekst:
-
+```
+##### wpisać poniższy tekst:
+```js
 LANG=pl_PL.UTF-8
 LANGUAGE=pl_PL.UTF-8
 LC_ADDRESS=pl_PL.UTF-8
@@ -241,7 +241,7 @@ LC_NUMERIC=pl_PL.UTF-8
 LC_PAPER=pl_PL.UTF-8
 LC_TELEPHONE=pl_PL.UTF-8
 LC_TIME=pl_PL.UTF-8
-
+```
 
 zapisać ctrl+O -(zapisuje), ENTER później ctrl+X (zamyka nano) 
 
