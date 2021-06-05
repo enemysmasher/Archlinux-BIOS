@@ -226,7 +226,7 @@ zapisać **ctrl+O** -(zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 # nano /etc/locale.conf
 ```
 ##### wpisać poniższy tekst:
-```js
+```yaml
 LANG=pl_PL.UTF-8
 LANGUAGE=pl_PL.UTF-8
 LC_ADDRESS=pl_PL.UTF-8
@@ -250,7 +250,7 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 # nano /etc/vconsole.conf
 ```
 ##### wpisać poniższy tekst:
-```js
+```yaml
 KEYMAP=pl
 FONT=Lat2-Terminus16.psfu.gz
 FONT_MAP=8859-2
