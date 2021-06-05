@@ -395,23 +395,32 @@ archtest login: root
 # passwd tester
 ```
 ##### Po wciśnięciu ENTER należy dwa razy podać hasło nazwa_użytkownika 
-
-#### 27. Następnie włącz uprawnienia sudoers dla nowo utworzonego użytkownika
-
-Najprostsze podstawowe ustawienie można przeprowadzić wydając z konta "root" polecenie :
-
-# nano /etc/sudoers
-Za pomocą klawiszy strzałek przewiń ekran w dół i znajdź linię
-
-root ALL=(ALL) ALL
-
-gdzie "tester ALL=(ALL) ALL" to nazwa zwykłego użytkownika. 
-
+<img src="https://user-images.githubusercontent.com/43359077/120901968-00e1c480-c63e-11eb-9910-20065fb4b193.png" alt="uzytkownik" width="800"/>
  
-
-wpisać poniższy tekst:
-
+#### 27. Następnie włącz uprawnienia sudoers dla nowo utworzonego użytkownika
+##### Najprostsze podstawowe ustawienie można przeprowadzić wydając z konta "root" polecenie:
+```markdown
+# nano /etc/sudoers
+```
+##### Za pomocą klawiszy strzałek przewiń ekran w dół i znajdź linię.
+```yaml
+root ALL=(ALL) ALL
+```
+##### gdzie "tester ALL=(ALL) ALL" to nazwa zwykłego użytkownika. 
+##### wpisać poniższy tekst:
+```yaml
 tester ALL=(ALL) ALL
+```
+  
+**prezd**
+  
+<img src="https://user-images.githubusercontent.com/43359077/120902340-266fcd80-c640-11eb-8777-9d5ddae36df2.png" alt="root1" width="800"/>
+
+  
+  
+**po**
+  
+<img src="https://user-images.githubusercontent.com/43359077/120902346-32f42600-c640-11eb-80bc-6b7862fff742.png" alt="root2" width="800"/>
 
   
   
