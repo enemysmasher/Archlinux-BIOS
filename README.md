@@ -217,10 +217,10 @@ pl_PL.UTF-8
 ```
 zapisać **ctrl+O** -(zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 
-Następnie musisz wygenerować ustawienia regionalne
-
+##### Następnie musisz wygenerować ustawienia regionalne.
+```js
 # locale-gen
-
+```
 13.Plik konfiguracyjny dla ustawień regionalnych - Ustaw zmienną 
 
 # nano /etc/locale.conf
