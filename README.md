@@ -213,7 +213,7 @@ root@archiso ~ # iwctl
 
 #pl_PL.UTF-8
 ```
-##### Odkomentuj go, usuwając znak #
+##### Odkomentuj go, usuwając znak ##
 ```js
 en_US.UTF-8
 
