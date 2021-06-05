@@ -172,7 +172,7 @@ root@archiso ~ # iwctl
 #### 8. Instalacja systemu podstawowego
 ##### Teraz rozpoczynamy proces instalacji.
 ```markdown
-# pacstrap -i /mnt base base-devel bash-completion linux linux-firmware linux-headers nano dhcpcd usbutils e2fsprogs
+# pacstrap -i /mnt base base-devel bash-completion linux linux-firmware linux-headers nano
 ```
 ##### Przy pytaniu, jakie pakiety zainstalować wcisnąć ENTER. Poczekaj chwilę, aż się zakończy.
 <img src="https://user-images.githubusercontent.com/43359077/120879205-0bf70f00-c5c2-11eb-9aaa-b06891f0f422.png" alt="pacstrap"/>
