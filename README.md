@@ -119,31 +119,31 @@ root@archiso ~ # iwctl
   
 ##### Jeśli chcesz utworzyć więcej partycji to skonfiguruj partycję **sda2** jako **podstawowy** **(Primary)**, podziel ją w/g uznania a następnie zapisz nowy partycji dysku wybierając **(Write)**.
 
-![2021-06-04_202303](https://user-images.githubusercontent.com/43359077/120871900-587c2380-c59d-11eb-8c47-f3c76ab3d379.png)
+<img src="https://user-images.githubusercontent.com/43359077/120871900-587c2380-c59d-11eb-8c47-f3c76ab3d379.png" width="800"/>
   
 ##### Naciśnij klawisz Enter, aby zaakceptować domyślny.
   
-![2021-06-04_202326](https://user-images.githubusercontent.com/43359077/120871905-5ade7d80-c59d-11eb-8375-4f3cbeed3af5.png)
+<img src="https://user-images.githubusercontent.com/43359077/120871905-5ade7d80-c59d-11eb-8375-4f3cbeed3af5.png" width="800"/>
   
 ##### wybierz podstawowy
   
-![2021-06-04_202347](https://user-images.githubusercontent.com/43359077/120871910-5d40d780-c59d-11eb-9564-b977d68f0ad7.png)
+<img src="https://user-images.githubusercontent.com/43359077/120871910-5d40d780-c59d-11eb-9564-b977d68f0ad7.png" width="800"/>
   
 ##### Skończone. Partycja utworzona w miły i przyjemny sposób. Możemy zapisać teraz zmiany używając opcji **Write**.
   
-![2021-06-04_202411](https://user-images.githubusercontent.com/43359077/120871915-5fa33180-c59d-11eb-8c5e-728e60fb7d61.png)
+<img src="https://user-images.githubusercontent.com/43359077/120871915-5fa33180-c59d-11eb-8c5e-728e60fb7d61.png" width="800"/>
   
 ##### Wpisz **yes**, aby zatwierdzić zmiany w strukturze dysku, a następnie naciśnij klawisz Enter.
   
-![2021-06-04_202434](https://user-images.githubusercontent.com/43359077/120871918-616cf500-c59d-11eb-8a20-763592c48951.png)  
+<img src="https://user-images.githubusercontent.com/43359077/120871918-616cf500-c59d-11eb-8a20-763592c48951.png" width="800"/>
   
 ##### Przed ostatecznym zapisem system poprosi was o potwierdzenie. Aby wyjść bez zapisywania zmian należy wybrać Zakończ.
 ##### cfdisk zapisze zmiany na wirtualnym napędzie dysków. cfdisk wyświetli następujący komunikat diagnostyczny:
 ##### Po zakończeniu działań programu wyjdź wybierając Quit.
   
-![2021-06-04_202454](https://user-images.githubusercontent.com/43359077/120871922-6336b880-c59d-11eb-9713-c4356958c52f.png)
+<img src="https://user-images.githubusercontent.com/43359077/120871922-6336b880-c59d-11eb-9713-c4356958c52f.png" width="800"/>
   
-Rozmiary według uznania :smirk:
+##### Rozmiary według uznania :smirk:
 
   
 ![2021-06-04_202529](https://user-images.githubusercontent.com/43359077/120871970-882b2b80-c59d-11eb-8d3c-0ac5a6420ef1.png)
@@ -152,7 +152,7 @@ Rozmiary według uznania :smirk:
   
 ##### Jesteśmy gotowi, by przejść powoli do instalacji bazowego systemu.
 
-Nowe partycje należy sformatować za pomocą systemu plików, zanim będzie można ich używać. Możesz to zrobić za pomocą odpowiedniego polecenia mkfs.
+##### Nowe partycje należy sformatować za pomocą systemu plików, zanim będzie można ich używać. Możesz to zrobić za pomocą odpowiedniego polecenia mkfs.
   
   
   
