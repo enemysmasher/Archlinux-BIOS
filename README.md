@@ -8,7 +8,7 @@
 ##### Sprawdźmy to!
 #### Spis treści
   
-* [**Konfiguracja WiFi**](#1. Konfiguracja Wi-Fi – sieci bezprzewodowe)
+* [Konfiguracja WiFi](#Konfiguracja Wi-Fi – sieci bezprzewodowe)
   
   
   
