@@ -139,22 +139,36 @@ root@archiso ~ # iwctl
   
 <img src="https://user-images.githubusercontent.com/43359077/120871922-6336b880-c59d-11eb-9713-c4356958c52f.png" alt="quit" width="800"/>
 
-##### Jak widać na dysku są 2 partycje. Jedna to **sda1** na której jest zainstalowany **root** a druga **sda2** to **home**
+##### Jak widać na dysku są 2 partycje.
 ```markdown
 # fdisk -l
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120871970-882b2b80-c59d-11eb-8d3c-0ac5a6420ef1.png" alt="fdisk-l"/>
 
 ##### Jesteśmy gotowi, by przejść powoli do instalacji bazowego systemu. Nowe partycje należy sformatować za pomocą systemu plików, zanim będzie można ich używać. Możesz to zrobić za pomocą odpowiedniego polecenia mkfs.
+  
+#### 5. Formatowanie partycji BIOS with MBR
+##### Pozostałe dwie partycje można sformatować w dowolnym systemie plików Linux. Polecam użycie ext4
 ```markdown
 # mkfs.ext4 -L root /dev/sda1
 # mkfs.ext4 -L home /dev/sda2
 ```
+<img src="https://user-images.githubusercontent.com/43359077/120876910-e531dc00-c5b3-11eb-990a-6479a4cf3a4f.png" alt="mkfs" />
+
+#### 6. Zamontuj system plików
+##### Teraz nadszedł czas na zamontowanie tych partycji:
+```markdown
+# mount /dev/sda1 /mnt
+# mkdir /mnt/home
+# mount /dev/sda2 /mnt/home
+```
+##### Sprawdź punkty montażowe, czy zostały pomyślnie utworzone
+```markdown
+lsblk -f
+```
   
 
-
-mkfs.ext4 -L home /dev/sda2
-
+  
 
   
  
