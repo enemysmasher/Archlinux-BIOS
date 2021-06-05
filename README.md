@@ -5,47 +5,12 @@
 <div align="left"> 
 
 ##### Archlinux jest to świetny system dla naszego desktopa?
-##### Sprawdźmy to!
-#### Spis treści
-  
-## Spis treści 
-* [**Pochodne dystrybucje**].(#Przed instalacją)
-  * [**Wstępna konfiguracja**](#Wstępna-konfiguracja)
-* [**Partycjonowanie dysku**](#Partycjonowanie-i-formatowanie-dysków)
-  * [**LVM**](#LVM)
-  * [**LVM i LUKS**](#LVM-i-LUKS)
-  * [**Klasycznie**](#Klasycznie)
-* [**Instalacja i podstawowa konfiguracja**](#Instalacja-i-podstawowa-konfiguracja)
-    * [**Bootloader**](#Bootloader-systemd-boot)
-    * [**Pliki sudoers i pacman.conf**](#Pliki-sudoers-i-pacman.conf)  
-* [**Środowiska graficzne - wstęp, które wybrać, GTK i Qt**](#Środowiska-graficzne)
-* [**Środowisko graficzne XFCE**](#Środowisko-graficzne-XFCE)
-  * [**Konfiguracja SDDM**](#Konfiguracja-SDDM)
-  * [**Konfiguracja OpenBoxa**](#Konfiguracja-OpenBoxa)
-  * [**Konfiguracja XFCE**](#Konfiguracja-XFCE)  
-* [**Środowisko graficzne KDE**](#Środowisko-graficzne-KDE)
-* [**Programy i aplikacje użytkowe**](#Programy-i-aplikacje-użytkowe)
-  * [**Konfiguracja i3lock**](#Konfiguracja-i3lock)
-  * [**Konfiguracja ZSH**](#Konfiguracja-ZSH)
-  * [**Konfiguracja VIMa**](#Konfiguracja-VIMa)
-* [**Podsumowanie**](#Podsumowanie)
-*
-
-## Arch Linux
-
-###### [Do góry](#Spis-treści)
-  
-  
 ##### Jak zainstalować Arch Linux krok po kroku ze zrzutami ekranu. Krótko: Ten samouczek pokazuje, jak zainstalować Arch Linux w łatwych do wykonania krokach. Obrazy instalacyjne Archa dostępne są do pobrania tutaj : https://www.archlinux.org/download/ Po pobraniu ISO utwórz rozruchowe urządzenie USB za pomocą polecenia **dd** Linux.
-  
 ```markdown
 # sudo dd if=path-to-image.iso  of=/dev/sdX bs=4M 
   (Zastąp image.iso, np archlinux-2021.06.01-x86_64.iso)
   (Zastąp sdX nazwą urządzenia, np.)
 ```
-  
-  
-##### [Do góry](#Spis-treści)
 ##### Natomiast do wykonania bootowalnego pendrive-a pod Windowsem najlepiej jest użyć programu Etcher -> https://www.balena.io/etcher/ lub Ventoy -> https://www.ventoy.net/en/index.html. Wypalamy obraz przy pomocy programu UltraISO-> https://www.ultraiso.com np płycie a następnie uruchamiamy system z wybranego nośnika. Po uruchomieniu ujrzymy ekran do wyboru wersji systemu 32 lub 64 bitowy.
 #### Przed instalacją:  
 ##### **Ethernet** - podłącz kabel sieciowy. Na czas instalacji podepnij się do internetu najlepiej przez kabel. 
