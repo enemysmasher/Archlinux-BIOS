@@ -142,7 +142,7 @@ root@archiso ~ # iwctl
 ```markdown
 # fdisk -l
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120871970-882b2b80-c59d-11eb-8d3c-0ac5a6420ef1.png" alt="fdisk-l"/>
+<img src="https://user-images.githubusercontent.com/43359077/120871970-882b2b80-c59d-11eb-8d3c-0ac5a6420ef1.png" alt="fdisk-l" width="800"/>
 
 ##### Jesteśmy gotowi, by przejść powoli do instalacji bazowego systemu. Nowe partycje należy sformatować za pomocą systemu plików, zanim będzie można ich używać. Możesz to zrobić za pomocą odpowiedniego polecenia mkfs.
   
@@ -152,7 +152,7 @@ root@archiso ~ # iwctl
 # mkfs.ext4 -L root /dev/sda1
 # mkfs.ext4 -L home /dev/sda2
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120876910-e531dc00-c5b3-11eb-990a-6479a4cf3a4f.png" alt="mkfs"/>
+<img src="https://user-images.githubusercontent.com/43359077/120876910-e531dc00-c5b3-11eb-990a-6479a4cf3a4f.png" alt="mkfs" width="800"/>
 
 #### 7. Zamontuj system plików
 ##### Teraz nadszedł czas na zamontowanie tych partycji:
@@ -161,13 +161,13 @@ root@archiso ~ # iwctl
 # mkdir /mnt/home
 # mount /dev/sda2 /mnt/home
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120877202-7e152700-c5b5-11eb-958c-4cf2f534b8fd.png" alt="mount"/>
+<img src="https://user-images.githubusercontent.com/43359077/120877202-7e152700-c5b5-11eb-958c-4cf2f534b8fd.png" alt="mount" width="800"/>
 
 ##### Sprawdź punkty montażowe, czy zostały pomyślnie utworzone.
 ```markdown
 # lsblk -f
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120877278-fd0a5f80-c5b5-11eb-835b-1df822c4a560.png" alt="lsblk-f"/>
+<img src="https://user-images.githubusercontent.com/43359077/120877278-fd0a5f80-c5b5-11eb-835b-1df822c4a560.png" alt="lsblk-f" width="800"/>
   
 #### 8. Instalacja systemu podstawowego
 ##### Teraz rozpoczynamy proces instalacji.
@@ -176,7 +176,7 @@ root@archiso ~ # iwctl
 # pacstrap -i /mnt base base-devel bash-completion linux linux-firmware linux-headers nano dhcpcd
 ```
 ##### Przy pytaniu, jakie pakiety zainstalować wcisnąć ENTER. Poczekaj chwilę, aż się zakończy.
-<img src="https://user-images.githubusercontent.com/43359077/120879205-0bf70f00-c5c2-11eb-9aaa-b06891f0f422.png" alt="pacstrap"/>
+<img src="https://user-images.githubusercontent.com/43359077/120879205-0bf70f00-c5c2-11eb-9aaa-b06891f0f422.png" alt="pacstrap" width="800"/>
 
 #### 9. Generowanie fstab
 ```markdown
@@ -186,27 +186,27 @@ root@archiso ~ # iwctl
 ```markdown
 # genfstab -U -p /mnt /mnt/etc/fstab
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120879502-13b7b300-c5c4-11eb-9d42-d3f8b5de4a62.png"/>
+<img src="https://user-images.githubusercontent.com/43359077/120879502-13b7b300-c5c4-11eb-9d42-d3f8b5de4a62.png" alt="fstab" width="800"/>
 
 #### 10. Wejdź przez chroot do nowego systemu
 ```markdown
 # arch-chroot /mnt /bin/bash
 ``` 
-<img src="https://user-images.githubusercontent.com/43359077/120879922-24b5f380-c5c7-11eb-9f8b-b1336162493c.png" alt="arch-chroot"/>
+<img src="https://user-images.githubusercontent.com/43359077/120879922-24b5f380-c5c7-11eb-9f8b-b1336162493c.png" alt="arch-chroot" width="800"/>
 
 #### 11. Strefa czasowa - Ustaw czas
 ```markdown
 # ln -sf /usr/share/zoneinfo/Europe/Warsaw /etc/localtime
 # hwclock --systohc --utc
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120880081-5f6c5b80-c5c8-11eb-94de-f65bff0a30c7.png" alt="czasowa"/>
+<img src="https://user-images.githubusercontent.com/43359077/120880081-5f6c5b80-c5c8-11eb-94de-f65bff0a30c7.png" alt="czasowa" width="800"/>
 
 #### 12. Konfiguracja języka
 ```markdown
 # nano /etc/locale.gen
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120886743-c8b39500-c5ef-11eb-95cb-d7af41100399.png" alt="locale-gen"/>
-
+  
+<img src="https://user-images.githubusercontent.com/43359077/120886743-c8b39500-c5ef-11eb-95cb-d7af41100399.png" alt="locale-gen" width="800"/>
 ##### Za pomocą klawiszy strzałek przewiń ekran w dół i znajdź linię.
 ```js
 #en_US.UTF-8 
@@ -221,19 +221,21 @@ pl_PL.UTF-8
 ```
 zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
   
-<img src="https://user-images.githubusercontent.com/43359077/120886633-3dd29a80-c5ef-11eb-987d-0f59fb69bc8d.png" alt="locale_gen"/>
+<img src="https://user-images.githubusercontent.com/43359077/120886633-3dd29a80-c5ef-11eb-987d-0f59fb69bc8d.png" alt="locale_gen" width="800"/>
 
 ##### Następnie musisz wygenerować ustawienia regionalne
 ```markdown
 # locale-gen
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120886947-b423cc80-c5f0-11eb-9dff-9df183597f9c.png" alt="generowanie"/>
+  
+<img src="https://user-images.githubusercontent.com/43359077/120886947-b423cc80-c5f0-11eb-9dff-9df183597f9c.png" alt="generowanie" width="800"/>
 
 #### 13. Plik konfiguracyjny dla ustawień regionalnych - Ustaw zmienną
+  
 ```markdown
 # nano /etc/locale.conf
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120887670-86d91d80-c5f4-11eb-9e90-89a4b4499e28.png" alt="locale.conf"/>
+<img src="https://user-images.githubusercontent.com/43359077/120887670-86d91d80-c5f4-11eb-9e90-89a4b4499e28.png" alt="locale.conf" width="800"/>
 
   
 ##### wpisać poniższy tekst:
@@ -260,7 +262,7 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```markdown
 # nano /etc/vconsole.conf
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120888305-dec55380-c5f7-11eb-8f19-d9479ee7fd83.png" alt="vconsole"/>
+<img src="https://user-images.githubusercontent.com/43359077/120888305-dec55380-c5f7-11eb-8f19-d9479ee7fd83.png" alt="vconsole" width="800"/>
 
 ##### wpisać poniższy tekst:
 ```yaml
@@ -274,7 +276,7 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```markdown
 # nano /etc/hostname
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120888400-71fe8900-c5f8-11eb-81eb-411357044aa0.png" alt="hostname"/>
+<img src="https://user-images.githubusercontent.com/43359077/120888400-71fe8900-c5f8-11eb-81eb-411357044aa0.png" alt="hostname" width="800"/>
 
 ##### wpisać poniższy tekst:
 ```yaml
@@ -285,7 +287,7 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```markdown
 # nano /etc/hosts
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120892829-5a32ff00-c610-11eb-896b-fa3100be471f.png" alt="hosts"/>
+<img src="https://user-images.githubusercontent.com/43359077/120892829-5a32ff00-c610-11eb-896b-fa3100be471f.png" alt="hosts" width="800"/>
 
 ##### wpisać poniższy tekst:
 ```js
@@ -293,7 +295,7 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ::1             localhost
 127.0.1.1       archtest.localdomain        archtest
 ```
- <img src="https://user-images.githubusercontent.com/43359077/120892943-e1807280-c610-11eb-8eca-13fa8144d5c1.png" alt="localhost"/>
+ <img src="https://user-images.githubusercontent.com/43359077/120892943-e1807280-c610-11eb-8eca-13fa8144d5c1.png" alt="localhost" width="800"/>
  
 zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 #### 17. Konfiguracja sieci
@@ -302,7 +304,7 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```markdown
 # systemctl enable dhcpcd
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120892992-31f7d000-c611-11eb-85f6-c67202d97fb9.png" alt="dhcpcd"/>
+<img src="https://user-images.githubusercontent.com/43359077/120892992-31f7d000-c611-11eb-85f6-c67202d97fb9.png" alt="dhcpcd" width="800"/>
 
 #### 18. Włącz sieć
 ##### Najpierw zainstaluj menedżera sieci:
@@ -316,7 +318,8 @@ Konfiguracja sieci
 
 # pacman -S iw iwd dialog net-tools wireless_tools wpa_supplicant
 ```
-<img src="
+<img src="https://user-images.githubusercontent.com/43359077/120894236-c5340400-c617-11eb-945f-cb5e2ce5333f.png" alt="network" width="800"/>
+
   
 ##### Aktywuj usługi do następnego ponownego uruchomienia
  ```markdown 
