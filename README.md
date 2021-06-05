@@ -204,20 +204,20 @@ root@archiso ~ # iwctl
 # nano /etc/locale.gen
 ```
 ##### Za pomocą klawiszy strzałek przewiń ekran w dół i znajdź linię.
-```yaml
+```js
 #en_US.UTF-8 
 
 #pl_PL.UTF-8
 ```
 ##### Odkomentuj go, usuwając znak #
-```yaml
+```js
 en_US.UTF-8
 
 pl_PL.UTF-8
 ```
-zapisać **ctrl+O** -(zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
+zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 
-##### Następnie musisz wygenerować ustawienia regionalne.
+##### Następnie musisz wygenerować ustawienia regionalne
 ```markdown
 # locale-gen
 ```
@@ -276,20 +276,16 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ::1             localhost.localdomain       localhost
 127.0.1.1       archtest.localdomain        archtest
 ```
-zapisać ctrl+O -(zapisuje), ENTER później ctrl+X (zamyka nano)
-
-17.Konfiguracja sieci
-
-Twój interfejs sieciowy jest wymieniony i włączony. Kabel jest podłączony lub podłączony do bezprzewodowej sieci LAN
-
-Aktywuj dhcpcd
-
+zapisać **ctrl+O** (zapisuje), **ENTER* później *ctrl+X* (zamyka nano)
+#### 17. Konfiguracja sieci
+##### Twój interfejs sieciowy jest wymieniony i włączony. Kabel jest podłączony lub podłączony do bezprzewodowej sieci LAN
+##### Aktywuj dhcpcd
+```markdown
 # systemctl enable dhcpcd
-
-18.Włącz sieć
-
-Najpierw zainstaluj menedżera sieci:
-
+```
+#### 18. Włącz sieć
+##### Najpierw zainstaluj menedżera sieci:
+```markdown
 # pacman -S networkmanager 
 
 # pacman -S network-manager-applet
@@ -297,19 +293,20 @@ Najpierw zainstaluj menedżera sieci:
 Konfiguracja sieci
 
 # pacman -S iw iwd dialog net-tools wireless_tools wpa_supplicant
-
-21.Aktywuj usługi do następnego ponownego uruchomienia
-
+```
+##### Aktywuj usługi do następnego ponownego uruchomienia
+ ```markdown 
 # systemctl enable NetworkManager
+```
 
-22.Tworzenie ramdisc
-
+#### 19. Tworzenie ramdisc
+```markdown
 # mkinitcpio -p linux
-
-23.Hasło użytkownika root
-
+```
+#### 20. Hasło użytkownika root
+```markdown
 # passwd
-
+```
   
 
 
