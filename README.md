@@ -237,7 +237,6 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120887670-86d91d80-c5f4-11eb-9e90-89a4b4499e28.png" alt="locale.conf" width="800"/>
 
-  
 ##### wpisać poniższy tekst:
 ```yaml
 LANG=pl_PL.UTF-8
@@ -255,7 +254,6 @@ LC_PAPER=pl_PL.UTF-8
 LC_TELEPHONE=pl_PL.UTF-8
 LC_TIME=pl_PL.UTF-8
 ```
-
 zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano) 
 
 #### 14. Plik konfiguracyjny konsoli wirtualnej - Czcionka konsoli.
@@ -332,11 +330,37 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120895213-442b3b80-c61c-11eb-808d-300e6d853eb6.png" alt="mkinitcpio" width="800"/>
   
-  
 #### 20. Hasło użytkownika root
 ```markdown
 # passwd
 ```
+##### Po wciśnięciu ENTER należy dwa razy podać hasło użytkownika root
+#### 21. Jeśli posiadasz procesor Intela, zainstaluj pakiet intel-ucode
+##### Procesory Intela i Amd potrzebują dodatkowo mikrokodów które będą wczytywane przy bootowaniu systemu
+##### Mikrokod Intela to mikrokod działający w procesorach :
+```markdown
+# pacman -S intel-ucode iucode-tool
+```
+##### Mikrokod Amd to mikrokod działający w procesorach :
+```markdown
+# pacman -S amd-ucode
+```
+#### 22. BIOS GRUB
+##### Zainstaluj GRUB
+```markdown
+# pacman -S grub
+# grub-install --target=i386-pc --recheck /dev/sda 
+# grub-mkconfig -o /boot/grub/grub.cfg
+```
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
 
   
