@@ -335,16 +335,23 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 # passwd
 ```
 ##### Po wciśnięciu ENTER należy dwa razy podać hasło użytkownika root
-#### 21. Jeśli posiadasz procesor Intela, zainstaluj pakiet intel-ucode
-##### Procesory Intela i Amd potrzebują dodatkowo mikrokodów które będą wczytywane przy bootowaniu systemu
-##### Mikrokod Intela to mikrokod działający w procesorach :
+  
+<img src="!https://user-images.githubusercontent.com/43359077/120895893-522e8b80-c61f-11eb-9b1b-c9e529b607ec.png" alt="passwd" width="800"/>
+  
+#### 21. Jeśli posiadasz procesor Intela, zainstaluj pakiet intel-ucode.
+##### Procesory Intela i Amd potrzebują dodatkowo mikrokodów które będą wczytywane przy bootowaniu systemu.
+##### Mikrokod Intela to mikrokod działający w procesorach:
 ```markdown
 # pacman -S intel-ucode
 ```
-##### Mikrokod Amd to mikrokod działający w procesorach :
+<img src="https://user-images.githubusercontent.com/43359077/120896057-1516c900-c620-11eb-94bb-22a6afd58b0b.png" alt="intel" width="800"/>
+
+##### Mikrokod Amd to mikrokod działający w procesorach:
 ```markdown
 # pacman -S amd-ucode
-```
+```     
+<img src="https://user-images.githubusercontent.com/43359077/120896095-42fc0d80-c620-11eb-949b-dda7a81e6353.png" alt="amd" width="800"/> 
+          
 #### 22. BIOS GRUB
 ##### Zainstaluj GRUB
 ```markdown
@@ -352,6 +359,7 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 # grub-install --target=i386-pc --recheck /dev/sda 
 # grub-mkconfig -o /boot/grub/grub.cfg
 ```
+
   
   
   
