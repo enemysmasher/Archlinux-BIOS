@@ -334,7 +334,7 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```
 ##### Po wciśnięciu ENTER należy dwa razy podać hasło użytkownika root
   
-<img src="!https://user-images.githubusercontent.com/43359077/120895893-522e8b80-c61f-11eb-9b1b-c9e529b607ec.png" alt="passwd" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/120895893-522e8b80-c61f-11eb-9b1b-c9e529b607ec.png" alt="passwd" width="800"/>
   
 #### 21. Jeśli posiadasz procesor Intela, zainstaluj pakiet intel-ucode.
 ##### Procesory Intela i Amd potrzebują dodatkowo mikrokodów które będą wczytywane przy bootowaniu systemu.
