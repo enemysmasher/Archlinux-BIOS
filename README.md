@@ -119,7 +119,7 @@ root@archiso ~ # iwctl
 
 ![2021-06-04_202303](https://user-images.githubusercontent.com/43359077/120871900-587c2380-c59d-11eb-8c47-f3c76ab3d379.png)
   
-#####
+##### Naciśnij klawisz Enter, aby zaakceptować domyślny.
   
 ![2021-06-04_202326](https://user-images.githubusercontent.com/43359077/120871905-5ade7d80-c59d-11eb-8375-4f3cbeed3af5.png)
   
@@ -135,7 +135,8 @@ root@archiso ~ # iwctl
   
 ![2021-06-04_202434](https://user-images.githubusercontent.com/43359077/120871918-616cf500-c59d-11eb-8a20-763592c48951.png)  
   
-
+##### Wpisz **yes**, aby zatwierdzić zmiany w strukturze dysku, a następnie naciśnij klawisz Enter.
+cfdisk zapisze zmiany na wirtualnym napędzie dysków. cfdisk wyświetli następujący komunikat diagnostyczny:
   
 ![2021-06-04_202454](https://user-images.githubusercontent.com/43359077/120871922-6336b880-c59d-11eb-9713-c4356958c52f.png)   write
   
@@ -146,11 +147,14 @@ root@archiso ~ # iwctl
   
   
   
-##### Jesteśmy gotowi, by przejść powoli do instalacji bazowego systemu. Musimy zamontować swoje partycje w odpowiednich miejscach za pomocą komend:
-  
-
+##### Jesteśmy gotowi, by przejść powoli do instalacji bazowego systemu. Nie powoduje to formatowania partycji w wybranym systemie plików. Będziesz musiał to zrobić później z odpowiednim mkfs.
   
   wybierz podstawowy
+  
+  
+  
+  
+  Nowe partycje należy sformatować za pomocą systemu plików, zanim będzie można ich używać.Możesz to zrobić za pomocą odpowiedniego polecenia mkfs. Na przykład to polecenie formatuje piątą partycję na pierwszym dysku za pomocą systemu plików ext4.
   
   
   
