@@ -176,15 +176,15 @@ root@archiso ~ # iwctl
 # pacstrap -i /mnt base base-devel linux linux-firmware linux-headers nano dhcpcd usbutils e2fsprogs
 ```
 ```
-##### edytor tekstu (taki jak nano), który konieczny będzie do edytowania plików konfiguracyjnych.
-##### narzędzia do obsługi systemów plików (e2fsprogs dla ext4).
-##### pakiety do połączenia z siecią (między innymi dhcpcd i wpa_supplicant czy jej obsługi (np.dialog umożliwiający uruchomienie wifi-menu).
-##### base jest to dla systemu podstawowego.
-##### base-devel ten pakiet zawiera narzędzia programistyczne & niektóre narzędzia (sudo, fakeroot, itp.).
-##### linux jądro linuksa.
-##### linux-firmware zapewnia oprogramowanie układowe (sterowniki) dla niektórych urządzeń poprawność, takich jak gładziki, karty Wi-Fi, itp.
-##### linux-headers 
-##### Przy pytaniu, jakie pakiety zainstalować wcisnąć ENTER. Poczekaj chwilę, aż się zakończy.
+edytor tekstu (taki jak nano), który konieczny będzie do edytowania plików konfiguracyjnych.
+narzędzia do obsługi systemów plików (e2fsprogs dla ext4).
+pakiety do połączenia z siecią (między innymi dhcpcd i wpa_supplicant czy jej obsługi (np.dialog umożliwiający uruchomienie wifi-menu).
+base jest to dla systemu podstawowego.
+base-devel ten pakiet zawiera narzędzia programistyczne & niektóre narzędzia (sudo, fakeroot, itp.).
+linux jądro linuksa.
+linux-firmware zapewnia oprogramowanie układowe (sterowniki) dla niektórych urządzeń poprawność, takich jak gładziki, karty Wi-Fi, itp.
+linux-headers 
+Przy pytaniu, jakie pakiety zainstalować wcisnąć ENTER. Poczekaj chwilę, aż się zakończy.
 ```
   
 
