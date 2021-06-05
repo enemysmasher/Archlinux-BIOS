@@ -339,7 +339,7 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ##### Procesory Intela i Amd potrzebują dodatkowo mikrokodów które będą wczytywane przy bootowaniu systemu
 ##### Mikrokod Intela to mikrokod działający w procesorach :
 ```markdown
-# pacman -S intel-ucode iucode-tool
+# pacman -S intel-ucode
 ```
 ##### Mikrokod Amd to mikrokod działający w procesorach :
 ```markdown
