@@ -243,42 +243,39 @@ LC_TELEPHONE=pl_PL.UTF-8
 LC_TIME=pl_PL.UTF-8
 ```
 
-zapisać ctrl+O -(zapisuje), ENTER później ctrl+X (zamyka nano) 
+zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano) 
 
-14.Plik konfiguracyjny konsoli wirtualnej - Czcionka konsoli
-
+#### 14. Plik konfiguracyjny konsoli wirtualnej - Czcionka konsoli.
+```markdown
 # nano /etc/vconsole.conf
-
-wpisać poniższy tekst:
-
+```
+##### wpisać poniższy tekst:
+```js
 KEYMAP=pl
 FONT=Lat2-Terminus16.psfu.gz
 FONT_MAP=8859-2
-
-zapisać ctrl+O -(zapisuje), ENTER później ctrl+X (zamyka nano)
-
-15.Ustaw nazwę hosta
-
-Nazwa hosta to nazwa komputera. Nazwijmy go - archtest
-
+```
+zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
+#### 15. Ustaw nazwę hosta
+##### Nazwa hosta to nazwa komputera. Nazwijmy go - archtest
+```markdown
 # nano /etc/hostname
-
-wpisać poniższy tekst:
-
+```
+##### wpisać poniższy tekst:
+```js
 archtest
-
-zapisać ctrl+O -(zapisuje), ENTER później ctrl+X (zamyka nano)
-
-16.Musisz również dodać tę nazwę do pliku hosts
-
+```
+zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
+#### 16. Musisz również dodać tę nazwę do pliku hosts
+```markdown
 # nano /etc/hosts
-
-wpisać poniższy tekst:
-
+```
+##### wpisać poniższy tekst:
+```js
 127.0.0.1       localhost.localdomain       localhost
 ::1             localhost.localdomain       localhost
 127.0.1.1       archtest.localdomain        archtest
-
+```
 zapisać ctrl+O -(zapisuje), ENTER później ctrl+X (zamyka nano)
 
 17.Konfiguracja sieci
