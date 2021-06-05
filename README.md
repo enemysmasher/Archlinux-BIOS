@@ -139,39 +139,29 @@ root@archiso ~ # iwctl
   
 ##### Przed ostatecznym zapisem system poprosi was o potwierdzenie. Aby wyjść bez zapisywania zmian należy wybrać Zakończ.
 ##### cfdisk zapisze zmiany na wirtualnym napędzie dysków. cfdisk wyświetli następujący komunikat diagnostyczny:
-```markdown
-Po zakończeniu działań programu wyjdź wybierając Quit.
-```
+##### Po zakończeniu działań programu wyjdź wybierając Quit.
+  
 ![2021-06-04_202454](https://user-images.githubusercontent.com/43359077/120871922-6336b880-c59d-11eb-9713-c4356958c52f.png)
   
+Rozmiary według uznania :smirk:
 
   
 ![2021-06-04_202529](https://user-images.githubusercontent.com/43359077/120871970-882b2b80-c59d-11eb-8d3c-0ac5a6420ef1.png)
   
   
   
-##### Jesteśmy gotowi, by przejść powoli do instalacji bazowego systemu. Nie powoduje to formatowania partycji w wybranym systemie plików. Będziesz musiał to zrobić później z odpowiednim mkfs.
+##### Jesteśmy gotowi, by przejść powoli do instalacji bazowego systemu.
 
-Nowe partycje należy sformatować za pomocą systemu plików, zanim będzie można ich używać.Możesz to zrobić za pomocą odpowiedniego polecenia mkfs. Na przykład to polecenie formatuje piątą partycję na pierwszym dysku za pomocą systemu plików ext4.
+Nowe partycje należy sformatować za pomocą systemu plików, zanim będzie można ich używać. Możesz to zrobić za pomocą odpowiedniego polecenia mkfs.
   
   
   
-*
-  
-  
-  
+mkfs.ext4 -L root /dev/sda1
 
 
-  **Zapisz tabelę na dysku twardym i wyjdź**
+
+mkfs.ext4 -L home /dev/sda2
+
+
+  
  
-  
-mkfs.ext4 -L root /dev/sdXY
-
-
-
-mkfs.ext4 -L home /dev/sdXY
-
-
-  
- Rozmiary według uznania :smirk:
-
