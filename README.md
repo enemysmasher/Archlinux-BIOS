@@ -204,13 +204,13 @@ root@archiso ~ # iwctl
 # nano /etc/locale.gen
 ```
 ##### Za pomocą klawiszy strzałek przewiń ekran w dół i znajdź linię.
-```markdown
+```js
 #en_US.UTF-8 
 
 #pl_PL.UTF-8
 ```
 ##### Odkomentuj go, usuwając znak #
-```yaml
+```js
 en_US.UTF-8
 
 pl_PL.UTF-8
