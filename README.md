@@ -88,7 +88,7 @@ root@archiso ~ # iwctl
 
 ##### **Graficzny (zalecany dla początkujących)**
 ##### cfdisk – szybciej, wygodniej, lepiej?
-> >>>>>>>>>> Ja preferuje cfdisk - prosta i przejrzysta :hearts:
+###### Ja preferuje cfdisk - prosta i przejrzysta :hearts:
 
 ```markdown
 # cfdisk /dev/sda
