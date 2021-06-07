@@ -484,14 +484,6 @@ tester ALL=(ALL) ALL
   
   
   
-____________________________________
-<details>
-  <summary>KDE</summary>
-
-  ```markdown
-  pacman -S plasma-desktop konsole dolphin sddm
-  ```
-</details>
 
 
 
