@@ -477,9 +477,21 @@ tester ALL=(ALL) ALL
   
 <img src="https://user-images.githubusercontent.com/43359077/120902346-32f42600-c640-11eb-80bc-6b7862fff742.png" alt="root2" width="800"/>
 
-
+-----
+-----
+-----
+ 
+   więc proszę o cierpliwość
   
+  System okien X, sterowniki Xorg, audio, sterowniki karty graficzne
   
+  Środowiska graficzne
+  
+  niektóre kluczowe aplikacje
+  
+-----
+-----
+-----
   
   
   
