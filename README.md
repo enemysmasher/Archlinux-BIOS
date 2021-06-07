@@ -467,7 +467,7 @@ root ALL=(ALL) ALL
 tester ALL=(ALL) ALL
 ```
   
-**prezd**
+**przed**
   
 <img src="https://user-images.githubusercontent.com/43359077/120902340-266fcd80-c640-11eb-8777-9d5ddae36df2.png" alt="root1" width="800"/>
 
