@@ -152,10 +152,9 @@ root@archiso ~ # iwctl
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120871970-882b2b80-c59d-11eb-8d3c-0ac5a6420ef1.png" alt="fdisk-l" width="800"/>
 
-##### Jesteśmy gotowi, by przejść powoli do instalacji bazowego systemu. Nowe partycje należy sformatować za pomocą systemu plików, zanim będzie można ich używać. Możesz to zrobić za pomocą odpowiedniego polecenia mkfs.
-  
 -----
   
+##### Jesteśmy gotowi, by przejść powoli do instalacji bazowego systemu. Nowe partycje należy sformatować za pomocą systemu plików, zanim będzie można ich używać. Możesz to zrobić za pomocą odpowiedniego polecenia mkfs.
 #### 6. Formatowanie partycji BIOS with MBR
 ##### Pozostałe dwie partycje można sformatować w dowolnym systemie plików Linux. Polecam użycie ext4.
 ```markdown
@@ -189,20 +188,6 @@ root@archiso ~ # iwctl
 ```markdown
 # pacstrap -i /mnt base base-devel bash-completion linux linux-firmware linux-headers nano dhcpcd
 ```
------
-  
-<details>
-  <summary>Wybór kernela Linux przy starcie</summary>
-
-  ```markdown
-  Kernel - linux
-  Hardened - linux-hardened
-  Longterm — linux-lts
-  Zen kernel - linux-zen
-
-  ```
-</details>
-  
 ##### Przy pytaniu, jakie pakiety zainstalować wcisnąć ENTER. Poczekaj chwilę, aż się zakończy.
 <img src="https://user-images.githubusercontent.com/43359077/120879205-0bf70f00-c5c2-11eb-9aaa-b06891f0f422.png" alt="pacstrap" width="800"/>
 
