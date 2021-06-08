@@ -30,6 +30,9 @@ root@archiso ~ # iwctl
 ```yaml
 [iwd]# station wlan0 connect ssid 
 ```
+```yaml
+[iwd]# exit
+```
 -----  
   
 #### 2. Połącz się z Internetem
