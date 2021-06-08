@@ -13,6 +13,9 @@
 ```
 ##### Natomiast do wykonania bootowalnego pendrive-a pod Windowsem najlepiej jest użyć programu Etcher -> https://www.balena.io/etcher/ lub Ventoy -> https://www.ventoy.net/en/index.html. Wypalamy obraz przy pomocy programu UltraISO-> https://www.ultraiso.com np płycie a następnie uruchamiamy system z wybranego nośnika. Po uruchomieniu ujrzymy ekran do wyboru wersji systemu 32 lub 64 bitowy.
 ##### Archlinux jest to świetny system dla naszego desktopa?
+  
+<img src="https://user-images.githubusercontent.com/43359077/121141147-f0e30400-c83a-11eb-9bbc-7da319ae4ef4.png" alt="live_boot" width="800"/>
+  
 #### Przed instalacją:  
 ##### **Ethernet** - podłącz kabel sieciowy. Na czas instalacji podepnij się do internetu najlepiej przez kabel. 
 ##### **Wi-Fi** - połącz się z siecią bezprzewodową za pomocą **iwctl**. Połącz się z **Wi-Fi** za pomocą terminala w Arch Linux i innych dystrybucjach.
