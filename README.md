@@ -150,6 +150,7 @@ root@archiso ~ # iwctl
 ##### Przed ostatecznym zapisem system poprosi o potwierdzenie. Aby wyjść bez zapisywania zmian należy wybrać Zakończ.
 ##### cfdisk zapisze zmiany na wirtualnym napędzie dysków. cfdisk wyświetli następujący komunikat diagnostyczny:
 ##### Po zakończeniu działań programu wyjdź wybierając **Quit**.
+##### Tablica partycji zostałą zmodyfikowana.
 <img src="https://user-images.githubusercontent.com/43359077/120871922-6336b880-c59d-11eb-9713-c4356958c52f.png" alt="quit" width="800"/>
 
 ##### Jak widać na dysku są 2 partycje.
