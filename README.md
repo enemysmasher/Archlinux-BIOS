@@ -17,7 +17,7 @@
 ## Spis treści 
 
 * [**Arch Linux**](#Arch-Linux)
-  * [**Konfiguracja Wi-Fi – sieci bezprzewodowe**](#Wifi)
+  * [**Konfiguracja Wi-Fi – sieci bezprzewodowe**](#### 1. Konfiguracja Wi-Fi – sieci bezprzewodowe)
 1. Konfiguracja Wi-Fi – sieci bezprzewodowe
 
 2. Połącz się z Internetem
