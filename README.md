@@ -228,7 +228,7 @@ root@archiso ~ # iwctl
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120877278-fd0a5f80-c5b5-11eb-835b-1df822c4a560.png" alt="lsblk-f" width="800"/>
   
-###### [Do góry](#spis-tre%C5%9Bci)
+###### [Do góry](#spis-treści)
 -----
   
 #### 8. Instalacja systemu podstawowego
