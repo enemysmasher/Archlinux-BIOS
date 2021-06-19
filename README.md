@@ -25,7 +25,7 @@
   * [**5. Partycjonuj dyski**](#5-partycjonuj-dyski)
   * [**6. Formatowanie partycji BIOS with MBR**](#6-Formatowanie-partycji-BIOS-with-MBR)
   * [**7. Zamontuj system plików**](#7-Zamontuj-system-plików)
-  * [**8. Instalacja systemu podstawowego**](#-Instalacja-systemu-podstawowego)
+  * [**8. Instalacja systemu podstawowego**](#8-Instalacja-systemu-podstawowego)
   * [****]()
   * [****]()
   * [****]()
