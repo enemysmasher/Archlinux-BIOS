@@ -40,7 +40,7 @@
   * [**20. Hasło użytkownika root**](#20-Hasło-użytkownika-root)
   * [**21. Jeśli posiadasz procesor Intela, zainstaluj pakiet intel-ucode.**](#21-Jeśli-posiadasz-procesor-intela-zainstaluj-pakiet-intel-ucode)
   * [**22. BIOS GRUB**](#22-Bios-grub)
-  * [****]()
+  * [**23. Teraz wiele osób ma dyski SSD, które obsługują TRIM. Dla bezpiecznej, cotygodniowej usługi TRIM na dyskach SSD i wszystkich innych urządzeniach, które umożliwiają obsługę TRIM:**](#23-Teraz-wiele-osób-ma-dyski-SSD,-które-obsługują-TRIM.-Dla-bezpiecznej,-cotygodniowej-usługi-TRIM-na-dyskach-SSD-i-wszystkich-innych-urządzeniach,-które-umożliwiają-obsługę-TRIM:)
   * [****]()
   * [****]()
   * [****]()
@@ -49,7 +49,7 @@
   
 
 
-23. Teraz wiele osób ma dyski SSD, które obsługują TRIM. Dla bezpiecznej, cotygodniowej usługi TRIM na dyskach SSD i wszystkich innych urządzeniach, które umożliwiają obsługę TRIM:
+
 
 24. Wyjście z chroot
 
