@@ -47,21 +47,6 @@
   * [**27. Następnie włącz uprawnienia sudoers dla nowo utworzonego użytkownika**](#27-następnie-włącz-uprawnienia-sudoers-dla-nowo-utworzonego-użytkownika)
   * [****]()
   
-
-
-
-
-
-
-
-
-
-
-27. Następnie włącz uprawnienia sudoers dla nowo utworzonego użytkownika
-
-  
-
-
 #### Arch Linux - instalacja i konfiguracja
   
 <img src="https://user-images.githubusercontent.com/43359077/121141147-f0e30400-c83a-11eb-9bbc-7da319ae4ef4.png" alt="live_boot" width="800"/>
