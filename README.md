@@ -34,7 +34,7 @@
   * [**14. Plik konfiguracyjny konsoli wirtualnej - Czcionka konsoli.**](#14-Plik-konfiguracyjny-konsoli-wirtualnej---Czcionka-konsoli.)
   * [**15. Ustaw nazwę hosta**](#15-Ustaw-nazwę-hosta)
   * [**16. Musisz również dodać tę nazwę do pliku hosts**](#16-Musisz-również-dodać-tę-nazwę-do-pliku-hosts)
-  * [**17. Konfiguracja sieci**]()
+  * [**17. Konfiguracja sieci**](#-17Konfiguracja-sieci)
   * [****]()
   * [****]()
   * [****]()
