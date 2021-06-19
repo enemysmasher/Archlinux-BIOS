@@ -19,7 +19,7 @@
 * [**Arch Linux - instalacja i konfiguracja**](#arch-linux---instalacja-i-konfiguracja)
 * [**Przed instalacją**](#przed-instalacj%C4%85)
   * [**1. Konfiguracja Wi-Fi – sieci bezprzewodowe**](#1-konfiguracja-wi-fi--sieci-bezprzewodowe)
-  * [**2. Połącz się z Internetem**](połącz-się-z-internetem)
+  * [**2. Połącz się z Internetem**](#2-połącz-się-z-internetem)
   * [**3. Układ klawiatury**](#3-uk%C5%82ad-klawiatury)
   * [**4. Zaktualizuj systemowy zegar**](#4-zaktualizuj-systemowy-zegar)
   * [**5. Partycjonuj dyski**](#5-partycjonuj-dyski)
