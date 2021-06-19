@@ -16,34 +16,34 @@
 
 #### Spis treści 
 
-######* [**Arch Linux - instalacja i konfiguracja**](#arch-linux---instalacja-i-konfiguracja)
+* [**Arch Linux - instalacja i konfiguracja**](#arch-linux---instalacja-i-konfiguracja)
 * [**Przed instalacją**](#przed-instalacją)
-  * [**1. Konfiguracja Wi-Fi – sieci bezprzewodowe**](#1-Konfiguracja-wi-fi--sieci-bezprzewodowe)
-  * [**2. Połącz się z Internetem**](#2-Połącz-się-z-internetem)
-  * [**3. Układ klawiatury**](#3-Układ-klawiatury)
-  * [**4. Zaktualizuj systemowy zegar**](#4-Zaktualizuj-systemowy-zegar)
-  * [**5. Partycjonuj dyski**](#5-Partycjonuj-dyski)
-  * [**6. Formatowanie partycji BIOS with MBR**](#6-Formatowanie-partycji-BIOS-with-MBR)
-  * [**7. Zamontuj system plików**](#7-Zamontuj-system-plików)
-  * [**8. Instalacja systemu podstawowego**](#8-Instalacja-systemu-podstawowego)
-  * [**9. Generowanie fstab**](#9-Generowanie-fstab)
-  * [**10. Wejdź przez chroot do nowego systemu**](#10-Wejdź-przez-chroot-do-nowego-systemu)
-  * [**11. Strefa czasowa - Ustaw czas**](#11-Strefa-czasowa---Ustaw-czas)
-  * [**12. Konfiguracja języka**](#12-Konfiguracja-języka)
-  * [**13. Plik konfiguracyjny dla ustawień regionalnych - Ustaw zmienną**](#13-Plik-konfiguracyjny-dla-ustawień-regionalnych---Ustaw-zmienną)
-  * [**14. Plik konfiguracyjny konsoli wirtualnej - Czcionka konsoli**](#14-Plik-konfiguracyjny-konsoli-wirtualnej---czcionka-konsoli)
-  * [**15. Ustaw nazwę hosta**](#15-Ustaw-nazwę-hosta)
-  * [**16. Musisz również dodać tę nazwę do pliku hosts**](#16-Musisz-również-dodać-tę-nazwę-do-pliku-hosts)
-  * [**17. Konfiguracja sieci**](#17-Konfiguracja-sieci)
-  * [**18. Włącz sieć**](#18-Włącz-sieć)
-  * [**19. Tworzenie ramdisc**](#19-Tworzenie-ramdisc)
-  * [**20. Hasło użytkownika root**](#20-Hasło-użytkownika-root)
-  * [**21. Jeśli posiadasz procesor Intela, zainstaluj pakiet intel-ucode.**](#21-Jeśli-posiadasz-procesor-intela-zainstaluj-pakiet-intel-ucode)
-  * [**22. BIOS GRUB**](#22-Bios-grub)
+  * [**1. Konfiguracja Wi-Fi – sieci bezprzewodowe**](#1-konfiguracja-wi-fi--sieci-bezprzewodowe)
+  * [**2. Połącz się z Internetem**](#2-połącz-się-z-internetem)
+  * [**3. Układ klawiatury**](#3-układ-klawiatury)
+  * [**4. Zaktualizuj systemowy zegar**](#4-zaktualizuj-systemowy-zegar)
+  * [**5. Partycjonuj dyski**](#5-partycjonuj-dyski)
+  * [**6. Formatowanie partycji BIOS with MBR**](#6-formatowanie-partycji-BIOS-with-MBR)
+  * [**7. Zamontuj system plików**](#7-zamontuj-system-plików)
+  * [**8. Instalacja systemu podstawowego**](#8-instalacja-systemu-podstawowego)
+  * [**9. Generowanie fstab**](#9-generowanie-fstab)
+  * [**10. Wejdź przez chroot do nowego systemu**](#10-wejdź-przez-chroot-do-nowego-systemu)
+  * [**11. Strefa czasowa - Ustaw czas**](#11-strefa-czasowa---Ustaw-czas)
+  * [**12. Konfiguracja języka**](#12-konfiguracja-języka)
+  * [**13. Plik konfiguracyjny dla ustawień regionalnych - Ustaw zmienną**](#13-plik-konfiguracyjny-dla-ustawień-regionalnych---Ustaw-zmienną)
+  * [**14. Plik konfiguracyjny konsoli wirtualnej - Czcionka konsoli**](#14-plik-konfiguracyjny-konsoli-wirtualnej---czcionka-konsoli)
+  * [**15. Ustaw nazwę hosta**](#15-ustaw-nazwę-hosta)
+  * [**16. Musisz również dodać tę nazwę do pliku hosts**](#16-musisz-również-dodać-tę-nazwę-do-pliku-hosts)
+  * [**17. Konfiguracja sieci**](#17-konfiguracja-sieci)
+  * [**18. Włącz sieć**](#18-włącz-sieć)
+  * [**19. Tworzenie ramdisc**](#19-tworzenie-ramdisc)
+  * [**20. Hasło użytkownika root**](#20-hasło-użytkownika-root)
+  * [**21. Jeśli posiadasz procesor Intela, zainstaluj pakiet intel-ucode.**](#21-jeśli-posiadasz-procesor-intela-zainstaluj-pakiet-intel-ucode)
+  * [**22. BIOS GRUB**](#22-bios-grub)
   * [**23. Teraz wiele osób ma dyski SSD, które obsługują TRIM. Dla bezpiecznej, cotygodniowej usługi TRIM na dyskach SSD i wszystkich innych urządzeniach, które umożliwiają obsługę TRIM**](#23-teraz-wiele-osób-ma-dyski-ssd-które-obsługują-trim-dla-bezpiecznej-cotygodniowej-usługi-trim-na-dyskach-ssd-i-wszystkich-innych-urządzeniach-które-umożliwiają-obsługę-trim)
-  * [****]()
-  * [****]()
-  * [****]()
+  * [**24. Wyjście z chroot**](#24-wyjście-z-chroot)
+  * [**25. Logowanie się do systemu**](#25-logowanie-się-do-systemu)
+  * [**26. Dodaj użytkownika**](#26-Dddaj-użytkownika)
   * [****]()
   * [****]()
   
@@ -51,11 +51,11 @@
 
 
 
-24. Wyjście z chroot
+
 
 25. Logowanie się do systemu
 
-26. Dodaj użytkownika
+
 
 27. Następnie włącz uprawnienia sudoers dla nowo utworzonego użytkownika
 
