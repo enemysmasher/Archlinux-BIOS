@@ -17,7 +17,7 @@
 #### Spis treści 
 
 * [**Arch Linux**](#Arch-Linux)
-  * [**Pochodne dystrybucje**](#Pochodne-dystrybucje-Archa)
+  * [**Konfiguracja Wi-Fi – sieci bezprzewodowe**](#Konfiguracja Wi-Fi)
   * [**Wstępna konfiguracja**](#Wstępna-konfiguracja)
 * [**Partycjonowanie dysku**](#Partycjonowanie-i-formatowanie-dysków)
   * [**LVM**](#LVM)
