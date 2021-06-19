@@ -13,9 +13,8 @@
 ```
 ##### Natomiast do wykonania bootowalnego pendrive-a pod Windowsem najlepiej jest użyć programu Etcher -> https://www.balena.io/etcher/ lub Ventoy -> https://www.ventoy.net/en/index.html. Wypalamy obraz przy pomocy programu UltraISO-> https://www.ultraiso.com np płycie a następnie uruchamiamy system z wybranego nośnika. Po uruchomieniu ujrzymy ekran do wyboru wersji systemu 32 lub 64 bitowy.
 ##### Archlinux jest to świetny system dla naszego desktopa?
-  
-  
-## Spis treści 
+
+#### Spis treści 
 
 * [**Arch Linux**](#Arch-Linux)
   * [**Pochodne dystrybucje**](#Pochodne-dystrybucje-Archa)
@@ -44,15 +43,7 @@
   
   
   
-  
-  
-  
-## Spis treści 
-  
-  ##### [Partycjonowanie klasyczne](#Klasycznie)
-
-* [**Arch Linux**](#Arch-Linux)
-  * .[**Konfiguracja Wi-Fi – sieci bezprzewodowe**](#[Konfiguracja Wi-Fi – sieci bezprzewodowe](xref:UID)
+ 
 1. Konfiguracja Wi-Fi – sieci bezprzewodowe
 
 2. Połącz się z Internetem
@@ -108,33 +99,7 @@
 
   
 
-## Spis treści 
 
-* [**Arch Linux**](#Arch-Linux)
-  * [**Pochodne dystrybucje**](#Pochodne-dystrybucje-Archa)
-  * [**Wstępna konfiguracja**](#Wstępna-konfiguracja)
-* [**Partycjonowanie dysku**](#Partycjonowanie-i-formatowanie-dysków)
-  * [**LVM**](#LVM)
-  * [**LVM i LUKS**](#LVM-i-LUKS)
-  * [**Klasycznie**](#Klasycznie)
-* [**Instalacja i podstawowa konfiguracja**](#Instalacja-i-podstawowa-konfiguracja)
-    * [**Bootloader**](#Bootloader-systemd-boot)
-    * [**Pliki sudoers i pacman.conf**](#Pliki-sudoers-i-pacman.conf)  
-* [**Środowiska graficzne - wstęp, które wybrać, GTK i Qt**](#Środowiska-graficzne)
-* [**Środowisko graficzne XFCE**](#Środowisko-graficzne-XFCE)
-  * [**Konfiguracja SDDM**](#Konfiguracja-SDDM)
-  * [**Konfiguracja OpenBoxa**](#Konfiguracja-OpenBoxa)
-  * [**Konfiguracja XFCE**](#Konfiguracja-XFCE)  
-* [**Środowisko graficzne KDE**](#Środowisko-graficzne-KDE)
-* [**Programy i aplikacje użytkowe**](#Programy-i-aplikacje-użytkowe)
-  * [**Konfiguracja i3lock**](#Konfiguracja-i3lock)
-  * [**Konfiguracja ZSH**](#Konfiguracja-ZSH)
-  * [**Konfiguracja VIMa**](#Konfiguracja-VIMa)
-* [**Podsumowanie**](#Podsumowanie)
-  
-  
-  
-  
 #### Arch Linux - instalacja i konfiguracja
   
 <img src="https://user-images.githubusercontent.com/43359077/121141147-f0e30400-c83a-11eb-9bbc-7da319ae4ef4.png" alt="live_boot" width="800"/>
