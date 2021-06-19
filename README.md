@@ -16,7 +16,7 @@
 
 #### Spis treści 
 
-* [**######Arch Linux - instalacja i konfiguracja**](#arch-linux---instalacja-i-konfiguracja)
+######* [**Arch Linux - instalacja i konfiguracja**](#arch-linux---instalacja-i-konfiguracja)
 * [**Przed instalacją**](#przed-instalacją)
   * [**1. Konfiguracja Wi-Fi – sieci bezprzewodowe**](#1-Konfiguracja-wi-fi--sieci-bezprzewodowe)
   * [**2. Połącz się z Internetem**](#2-Połącz-się-z-internetem)
