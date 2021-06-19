@@ -237,9 +237,11 @@ root@archiso ~ # iwctl
 ```markdown
 # pacstrap -i /mnt base base-devel bash-completion linux linux-firmware linux-headers nano dhcpcd
 ```
+##### Dodałem Nano edytor, ponieważ trzeba edytować niektóre pliki po instalacji.
 ##### Przy pytaniu, jakie pakiety zainstalować wcisnąć ENTER. Poczekaj chwilę, aż się zakończy.
 <img src="https://user-images.githubusercontent.com/43359077/122657333-eee64280-d162-11eb-87c6-640034a5877f.png" alt="pacstrap" width="800"/>
 
+##### To zajmie trochę czasu, aby pobrać i zainstalować te pakiety. Jeśli pliki do pobrania zostanie przerwane, nie trzeba panikować. Możesz uruchomić powyższe polecenie jeszcze raz i wznowić pobieranie.
 ###### [Do góry](#spis-tre%C5%9Bci)
 -----
   
