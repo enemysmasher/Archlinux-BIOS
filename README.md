@@ -16,7 +16,7 @@
 
 #### Spis treści 
 
-* [**Arch Linux**](#Arch Linux)
+* [**Arch Linux**](https://github.com/enemysmasher/Archlinux-BIOS/blob/master/README.md#8-instalacja-systemu-podstawowego)
   * [**Konfiguracja Wi-Fi – sieci bezprzewodowe**](#Konfiguracja Wi-Fi – sieci bezprzewodowe)
   * [**Wstępna konfiguracja**](#Wstępna-konfiguracja)
 * [**Partycjonowanie dysku**](#Partycjonowanie-i-formatowanie-dysków)
