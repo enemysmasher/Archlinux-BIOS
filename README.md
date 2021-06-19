@@ -238,7 +238,7 @@ root@archiso ~ # iwctl
 # pacstrap -i /mnt base base-devel bash-completion linux linux-firmware linux-headers nano dhcpcd
 ```
 ##### Przy pytaniu, jakie pakiety zainstalować wcisnąć ENTER. Poczekaj chwilę, aż się zakończy.
-<img src="https://user-images.githubusercontent.com/43359077/120879205-0bf70f00-c5c2-11eb-9aaa-b06891f0f422.png" alt="pacstrap" width="800"/>
+<img src="https://user-images.githubusercontent.com/43359077/122657333-eee64280-d162-11eb-87c6-640034a5877f.png" alt="pacstrap" width="800"/>
 
 ###### [Do góry](#spis-tre%C5%9Bci)
 -----
