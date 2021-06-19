@@ -31,7 +31,7 @@
   * [**11. Strefa czasowa - Ustaw czas**](#11-Strefa-czasowa---Ustaw-czas)
   * [**12. Konfiguracja języka**](#12-Konfiguracja-języka)
   * [**13. Plik konfiguracyjny dla ustawień regionalnych - Ustaw zmienną**](#13-Plik-konfiguracyjny-dla-ustawień-regionalnych---Ustaw-zmienną)
-  * [**14. Plik konfiguracyjny konsoli wirtualnej - Czcionka konsoli.**](#-14-Plik-konfiguracyjny-konsoli-wirtualnej---Czcionka-konsoli.)
+  * [**14. Plik konfiguracyjny konsoli wirtualnej - Czcionka konsoli.**](#14-plik-konfiguracyjny-konsoli-wirtualnej---czcionka-konsoli)
   * [**15. Ustaw nazwę hosta**](#15-Ustaw-nazwę-hosta)
   * [**16. Musisz również dodać tę nazwę do pliku hosts**](#16-Musisz-również-dodać-tę-nazwę-do-pliku-hosts)
   * [**17. Konfiguracja sieci**](#-17Konfiguracja-sieci)
