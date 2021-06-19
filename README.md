@@ -17,7 +17,7 @@
 #### Spis treści 
 
 * [**Arch Linux - instalacja i konfiguracja**](#arch-linux---instalacja-i-konfiguracja)
-* [**Przed instalacją**](#przed-instalacj%C4%85)
+* [**Przed instalacją**](#przed-instalacją)
   * [**1. Konfiguracja Wi-Fi – sieci bezprzewodowe**](#1-Konfiguracja-wi-fi--sieci-bezprzewodowe)
   * [**2. Połącz się z Internetem**](#2-Połącz-się-z-internetem)
   * [**3. Układ klawiatury**](#3-Układ-klawiatury)
@@ -31,7 +31,7 @@
   * [**11. Strefa czasowa - Ustaw czas**](#11-Strefa-czasowa---Ustaw-czas)
   * [**12. Konfiguracja języka**](#12-Konfiguracja-języka)
   * [**13. Plik konfiguracyjny dla ustawień regionalnych - Ustaw zmienną**](#13-Plik-konfiguracyjny-dla-ustawień-regionalnych---Ustaw-zmienną)
-  * [**14. Plik konfiguracyjny konsoli wirtualnej - Czcionka konsoli.**](#14-Plik-konfiguracyjny-konsoli-wirtualnej---czcionka-konsoli)
+  * [**14. Plik konfiguracyjny konsoli wirtualnej - Czcionka konsoli**](#14-Plik-konfiguracyjny-konsoli-wirtualnej---czcionka-konsoli)
   * [**15. Ustaw nazwę hosta**](#15-Ustaw-nazwę-hosta)
   * [**16. Musisz również dodać tę nazwę do pliku hosts**](#16-Musisz-również-dodać-tę-nazwę-do-pliku-hosts)
   * [**17. Konfiguracja sieci**](#17-Konfiguracja-sieci)
@@ -40,7 +40,7 @@
   * [**20. Hasło użytkownika root**](#20-Hasło-użytkownika-root)
   * [**21. Jeśli posiadasz procesor Intela, zainstaluj pakiet intel-ucode.**](#21-Jeśli-posiadasz-procesor-intela-zainstaluj-pakiet-intel-ucode)
   * [**22. BIOS GRUB**](#22-Bios-grub)
-  * [**23. Teraz wiele osób ma dyski SSD, które obsługują TRIM. Dla bezpiecznej, cotygodniowej usługi TRIM na dyskach SSD i wszystkich innych urządzeniach, które umożliwiają obsługę TRIM:**](#23-teraz-wiele-osób-ma-dyski-ssd-które-obsługują-trim-dla-bezpiecznej-cotygodniowej-usługi-trim-na-dyskach-ssd-i-wszystkich-innych-urządzeniach-które-umożliwiają-obsługę-trim)
+  * [**23. Teraz wiele osób ma dyski SSD, które obsługują TRIM. Dla bezpiecznej, cotygodniowej usługi TRIM na dyskach SSD i wszystkich innych urządzeniach, które umożliwiają obsługę TRIM**](#23-teraz-wiele-osób-ma-dyski-ssd-które-obsługują-trim-dla-bezpiecznej-cotygodniowej-usługi-trim-na-dyskach-ssd-i-wszystkich-innych-urządzeniach-które-umożliwiają-obsługę-trim)
   * [****]()
   * [****]()
   * [****]()
