@@ -43,8 +43,8 @@
   * [**23. Teraz wiele osób ma dyski SSD, które obsługują TRIM. Dla bezpiecznej, cotygodniowej usługi TRIM na dyskach SSD i wszystkich innych urządzeniach, które umożliwiają obsługę TRIM**](#23-teraz-wiele-osób-ma-dyski-ssd-które-obsługują-trim-dla-bezpiecznej-cotygodniowej-usługi-trim-na-dyskach-ssd-i-wszystkich-innych-urządzeniach-które-umożliwiają-obsługę-trim)
   * [**24. Wyjście z chroot**](#24-wyjście-z-chroot)
   * [**25. Logowanie się do systemu**](#25-logowanie-się-do-systemu)
-  * [**26. Dodaj użytkownika**](#26-Dddaj-użytkownika)
-  * [****]()
+  * [**26. Dodaj użytkownika**](#26-dodaj-użytkownika)
+  * [**27. Następnie włącz uprawnienia sudoers dla nowo utworzonego użytkownika**](#27-następnie-włącz-uprawnienia-sudoers-dla-nowo-utworzonego-użytkownika)
   * [****]()
   
 
@@ -53,7 +53,7 @@
 
 
 
-25. Logowanie się do systemu
+
 
 
 
