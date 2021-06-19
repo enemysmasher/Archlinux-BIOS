@@ -14,6 +14,71 @@
 ##### Natomiast do wykonania bootowalnego pendrive-a pod Windowsem najlepiej jest użyć programu Etcher -> https://www.balena.io/etcher/ lub Ventoy -> https://www.ventoy.net/en/index.html. Wypalamy obraz przy pomocy programu UltraISO-> https://www.ultraiso.com np płycie a następnie uruchamiamy system z wybranego nośnika. Po uruchomieniu ujrzymy ekran do wyboru wersji systemu 32 lub 64 bitowy.
 ##### Archlinux jest to świetny system dla naszego desktopa?
   
+## Spis treści 
+
+* [**Arch Linux**](#Arch-Linux)
+  * [**Konfiguracja Wi-Fi – sieci bezprzewodowe**](#Wifi)
+1. Konfiguracja Wi-Fi – sieci bezprzewodowe
+
+2. Połącz się z Internetem
+
+3. Układ klawiatury
+
+4. Zaktualizuj systemowy zegar
+
+5. Partycjonuj dyski
+6. Formatowanie partycji BIOS with MBR
+
+7. Zamontuj system plików
+
+8. Instalacja systemu podstawowego
+
+9. Generowanie fstab
+
+10. Wejdź przez chroot do nowego systemu
+
+11. Strefa czasowa - Ustaw czas
+
+12. Konfiguracja języka
+
+13. Plik konfiguracyjny dla ustawień regionalnych - Ustaw zmienną
+
+14. Plik konfiguracyjny konsoli wirtualnej - Czcionka konsoli.
+
+15. Ustaw nazwę hosta
+
+16. Musisz również dodać tę nazwę do pliku hosts
+
+17. Konfiguracja sieci
+
+18. Włącz sieć
+
+19. Tworzenie ramdisc
+
+20. Hasło użytkownika root
+
+21. Jeśli posiadasz procesor Intela, zainstaluj pakiet intel-ucode.
+
+22. BIOS GRUB
+
+23. Teraz wiele osób ma dyski SSD, które obsługują TRIM. Dla bezpiecznej, cotygodniowej usługi TRIM na dyskach SSD i wszystkich innych urządzeniach, które umożliwiają obsługę TRIM:
+
+24. Wyjście z chroot
+
+25. Logowanie się do systemu
+
+26. Dodaj użytkownika
+
+27. Następnie włącz uprawnienia sudoers dla nowo utworzonego użytkownika
+
+  
+  
+  
+  
+  
+  
+#### Arch Linux - instalacja i konfiguracja
+  
 <img src="https://user-images.githubusercontent.com/43359077/121141147-f0e30400-c83a-11eb-9bbc-7da319ae4ef4.png" alt="live_boot" width="800"/>
   
 #### Przed instalacją:  
