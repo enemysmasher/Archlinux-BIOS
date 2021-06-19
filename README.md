@@ -19,24 +19,40 @@
 * [**Arch Linux - instalacja i konfiguracja**](#arch-linux---instalacja-i-konfiguracja)
 * [**przed instalacją**](#przed-instalacj%C4%85)
 * [**1. Konfiguracja Wi-Fi – sieci bezprzewodowe**](#1-konfiguracja-wi-fi--sieci-bezprzewodowe)
-* [**Partycjonowanie dysku**](#Partycjonowanie-i-formatowanie-dysków)
-* [**LVM**](#LVM)
-* [**LVM i LUKS**](#LVM-i-LUKS)
-* [**Klasycznie**](#Klasycznie)
-* [**Instalacja i podstawowa konfiguracja**](#Instalacja-i-podstawowa-konfiguracja)
-* [**Bootloader**](#Bootloader-systemd-boot)
-    * [**Pliki sudoers i pacman.conf**](#Pliki-sudoers-i-pacman.conf)  
-* [**Środowiska graficzne - wstęp, które wybrać, GTK i Qt**](#Środowiska-graficzne)
-* [**Środowisko graficzne XFCE**](#Środowisko-graficzne-XFCE)
-  * [**Konfiguracja SDDM**](#Konfiguracja-SDDM)
-  * [**Konfiguracja OpenBoxa**](#Konfiguracja-OpenBoxa)
-  * [**Konfiguracja XFCE**](#Konfiguracja-XFCE)  
-* [**Środowisko graficzne KDE**](#Środowisko-graficzne-KDE)
-* [**Programy i aplikacje użytkowe**](#Programy-i-aplikacje-użytkowe)
-  * [**Konfiguracja i3lock**](#Konfiguracja-i3lock)
-  * [**Konfiguracja ZSH**](#Konfiguracja-ZSH)
-  * [**Konfiguracja VIMa**](#Konfiguracja-VIMa)
+* [**2. Połącz się z Internetem**](#2-po%C5%82%C4%85cz-si%C4%99-z-internetem)
+* [**3. Układ klawiatury**](#3-uk%C5%82ad-klawiatury)
+* [**    **](    )
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  * [**    **](    )
   
   * [**Podsumowanie**](#Podsumowanie)
 
