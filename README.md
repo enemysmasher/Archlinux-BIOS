@@ -17,8 +17,8 @@
 #### Spis treści 
 
 * [**Arch Linux - instalacja i konfiguracja**](#arch-linux---instalacja-i-konfiguracja)
-* [**przed-instalacją**](#przed-instalacj%C4%85)
-* [**Połącz się z Internetem**](#2-po%C5%82%C4%85cz-si%C4%99-z-internetem)
+* [**przed instalacją**](#przed-instalacj%C4%85)
+* [**Konfiguracja wi-fi**](#1-konfiguracja-wi-fi--sieci-bezprzewodowe)
 * [**Partycjonowanie dysku**](#Partycjonowanie-i-formatowanie-dysków)
 * [**LVM**](#LVM)
 * [**LVM i LUKS**](#LVM-i-LUKS)
