@@ -139,6 +139,7 @@ root@archiso ~ # iwctl
 ###### **po:**
   <img src="https://user-images.githubusercontent.com/43359077/120829346-96f1ee00-c55d-11eb-826a-3fe5b2bf2d40.png" alt="setfont" width="800"/>
   
+###### [Do góry](#spis-tre%C5%9Bci)
 -----
 
 #### 4. Zaktualizuj systemowy zegar
@@ -151,6 +152,7 @@ root@archiso ~ # iwctl
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120824727-01ecf600-c559-11eb-8dc6-e117247fafd2.png" alt="timedatectl" width="800"/>
   
+###### [Do góry](#spis-tre%C5%9Bci)
 -----
   
 #### 5. Partycjonuj dyski
@@ -237,6 +239,7 @@ root@archiso ~ # iwctl
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120871970-882b2b80-c59d-11eb-8d3c-0ac5a6420ef1.png" alt="fdisk-l" width="800"/>
 
+###### [Do góry](#spis-tre%C5%9Bci)
 -----
   
 ##### Jesteśmy gotowi, by przejść powoli do instalacji bazowego systemu. Nowe partycje należy sformatować za pomocą systemu plików, zanim będzie można ich używać. Możesz to zrobić za pomocą odpowiedniego polecenia mkfs.
@@ -248,6 +251,7 @@ root@archiso ~ # iwctl
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120876910-e531dc00-c5b3-11eb-990a-6479a4cf3a4f.png" alt="mkfs" width="800"/>
   
+###### [Do góry](#spis-tre%C5%9Bci)
 -----
 
 #### 7. Zamontuj system plików
@@ -265,6 +269,7 @@ root@archiso ~ # iwctl
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120877278-fd0a5f80-c5b5-11eb-835b-1df822c4a560.png" alt="lsblk-f" width="800"/>
   
+###### [Do góry](#spis-tre%C5%9Bci)
 -----
   
 #### 8. Instalacja systemu podstawowego
@@ -276,6 +281,7 @@ root@archiso ~ # iwctl
 ##### Przy pytaniu, jakie pakiety zainstalować wcisnąć ENTER. Poczekaj chwilę, aż się zakończy.
 <img src="https://user-images.githubusercontent.com/43359077/120879205-0bf70f00-c5c2-11eb-9aaa-b06891f0f422.png" alt="pacstrap" width="800"/>
 
+###### [Do góry](#spis-tre%C5%9Bci)
 -----
   
 #### 9. Generowanie fstab
@@ -287,7 +293,8 @@ root@archiso ~ # iwctl
 # genfstab -U -p /mnt /mnt/etc/fstab
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120879502-13b7b300-c5c4-11eb-9d42-d3f8b5de4a62.png" alt="fstab" width="800"/>
-  
+ 
+###### [Do góry](#spis-tre%C5%9Bci)
 -----
 
 #### 10. Wejdź przez chroot do nowego systemu
@@ -295,7 +302,8 @@ root@archiso ~ # iwctl
 # arch-chroot /mnt /bin/bash
 ``` 
 <img src="https://user-images.githubusercontent.com/43359077/120879922-24b5f380-c5c7-11eb-9f8b-b1336162493c.png" alt="arch-chroot" width="800"/>
-  
+
+###### [Do góry](#spis-tre%C5%9Bci)
 -----
 
 #### 11. Strefa czasowa - Ustaw czas
@@ -304,7 +312,8 @@ root@archiso ~ # iwctl
 # hwclock --systohc --utc
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120880081-5f6c5b80-c5c8-11eb-94de-f65bff0a30c7.png" alt="czasowa" width="800"/>
-  
+
+###### [Do góry](#spis-tre%C5%9Bci)
 -----
 
 #### 12. Konfiguracja języka
@@ -336,6 +345,7 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
   
 <img src="https://user-images.githubusercontent.com/43359077/120886947-b423cc80-c5f0-11eb-9dff-9df183597f9c.png" alt="generowanie" width="800"/>
   
+###### [Do góry](#spis-tre%C5%9Bci)
 -----
 
 #### 13. Plik konfiguracyjny dla ustawień regionalnych - Ustaw zmienną
@@ -363,7 +373,8 @@ LC_TELEPHONE=pl_PL.UTF-8
 LC_TIME=pl_PL.UTF-8
 ```
 zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano) 
-  
+
+###### [Do góry](#spis-tre%C5%9Bci)
 -----
 
 #### 14. Plik konfiguracyjny konsoli wirtualnej - Czcionka konsoli.
@@ -379,7 +390,8 @@ FONT=Lat2-Terminus16.psfu.gz
 FONT_MAP=8859-2
 ```
 zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
-  
+ 
+###### [Do góry](#spis-tre%C5%9Bci)
 -----
   
 #### 15. Ustaw nazwę hosta
@@ -395,6 +407,7 @@ archtest
 ```
 zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
   
+###### [Do góry](#spis-tre%C5%9Bci)
 -----
   
 #### 16. Musisz również dodać tę nazwę do pliku hosts
@@ -412,7 +425,8 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
  <img src="https://user-images.githubusercontent.com/43359077/120892943-e1807280-c610-11eb-8eca-13fa8144d5c1.png" alt="localhost" width="800"/>
  
 zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
-  
+ 
+###### [Do góry](#spis-tre%C5%9Bci)
 -----
   
 #### 17. Konfiguracja sieci
@@ -423,6 +437,7 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120892992-31f7d000-c611-11eb-85f6-c67202d97fb9.png" alt="dhcpcd" width="800"/>
 
+###### [Do góry](#spis-tre%C5%9Bci)
 -----  
   
 #### 18. Włącz sieć
@@ -442,7 +457,8 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 # systemctl enable NetworkManager
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120894858-d3375400-c61a-11eb-8fd7-3f03db7c1516.png" alt="enable_networkmanager" width="800"/>
-  
+
+###### [Do góry](#spis-tre%C5%9Bci)
 -----  
   
 #### 19. Tworzenie ramdisc
@@ -450,7 +466,8 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 # mkinitcpio -P linux
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120895213-442b3b80-c61c-11eb-808d-300e6d853eb6.png" alt="mkinitcpio" width="800"/>
-  
+
+###### [Do góry](#spis-tre%C5%9Bci)
 -----  
   
 #### 20. Hasło użytkownika root
@@ -460,7 +477,8 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ##### Po wciśnięciu ENTER należy dwa razy podać hasło użytkownika root
   
 <img src="https://user-images.githubusercontent.com/43359077/120895893-522e8b80-c61f-11eb-9b1b-c9e529b607ec.png" alt="passwd" width="800"/>
-  
+
+###### [Do góry](#spis-tre%C5%9Bci)
 -----  
   
 #### 21. Jeśli posiadasz procesor Intela, zainstaluj pakiet intel-ucode.
@@ -476,7 +494,8 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 # pacman -S amd-ucode
 ```     
 <img src="https://user-images.githubusercontent.com/43359077/120896095-42fc0d80-c620-11eb-949b-dda7a81e6353.png" alt="amd" width="800"/> 
-  
+
+###### [Do góry](#spis-tre%C5%9Bci)  
 -----  
   
 #### 22. BIOS GRUB
@@ -487,7 +506,8 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 # grub-mkconfig -o /boot/grub/grub.cfg
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120898730-6af16e00-c62c-11eb-8ca1-fe472c493d72.png" alt="grub" width="800"/> 
-  
+
+###### [Do góry](#spis-tre%C5%9Bci)  
 -----  
   
 #### 23. Teraz wiele osób ma dyski SSD, które obsługują TRIM. Dla bezpiecznej, cotygodniowej usługi TRIM na dyskach SSD i wszystkich innych urządzeniach, które umożliwiają obsługę TRIM:
@@ -495,7 +515,8 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 # systemctl enable fstrim.timer
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120900751-d5a7a700-c636-11eb-828b-12d854702c1b.png" alt="fstrim" width="800"/> 
-  
+ 
+###### [Do góry](#spis-tre%C5%9Bci)
 -----  
   
  #### 24. Wyjście z chroot
@@ -509,7 +530,8 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ```
 ##### Jeśli wszystko zrobiłeś poprawnie, po ponownym uruchomieniu zobaczysz ekran powitalny GRUB z zainstalowanym Arch Linux.
 <img src="https://user-images.githubusercontent.com/43359077/120901140-58316600-c639-11eb-9d9f-ea33b0c63cc6.png" alt="grub" width="800"/> 
-  
+
+###### [Do góry](#spis-tre%C5%9Bci)  
 -----  
   
 #### 25. Logowanie się do systemu
@@ -521,6 +543,7 @@ archtest login: root
 
 ##### Aby kontynuować, zaloguj się jako użytkownik root z wcześniej ustawionym hasłem.
 
+###### [Do góry](#spis-tre%C5%9Bci)  
 -----
   
 #### 26. Dodaj użytkownika
@@ -535,6 +558,7 @@ archtest login: root
 ##### Po wciśnięciu ENTER należy dwa razy podać hasło nazwa_użytkownika 
 <img src="https://user-images.githubusercontent.com/43359077/120901968-00e1c480-c63e-11eb-9910-20065fb4b193.png" alt="uzytkownik" width="800"/>
  
+###### [Do góry](#spis-tre%C5%9Bci)  
 ----  
   
 #### 27. Następnie włącz uprawnienia sudoers dla nowo utworzonego użytkownika
@@ -562,6 +586,7 @@ tester ALL=(ALL) ALL
   
 <img src="https://user-images.githubusercontent.com/43359077/120902346-32f42600-c640-11eb-80bc-6b7862fff742.png" alt="root2" width="800"/>
 
+###### [Do góry](#spis-tre%C5%9Bci)  
 -----
 -----
 -----
