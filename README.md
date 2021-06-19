@@ -21,47 +21,38 @@
   * [**1. Konfiguracja Wi-Fi – sieci bezprzewodowe**](#1-konfiguracja-wi-fi--sieci-bezprzewodowe)
   * [**2. Połącz się z Internetem**](#2-po%C5%82%C4%85cz-si%C4%99-z-internetem)
   * [**3. Układ klawiatury**](#3-uk%C5%82ad-klawiatury)
-  * [**    **](    )
+  * [**4. Zaktualizuj systemowy zegar**](#4-zaktualizuj-systemowy-zegar)
+  * [****]()
+  * [****]()
+  * [****]()
+  * [****]()
+  * [****]()
+  * [****]()
+  * [****]()
+  * [****]()
+  * [****]()
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  * [**    **](    )
-  
-  * [**Podsumowanie**](#Podsumowanie)
-
-## Arch Linux
-  
-  
-  https://github.com/enemysmasher/Archlinux-BIOS/blob/master/README.md#arch-linux---instalacja-i-konfiguracja
-  
- 
 1. Konfiguracja Wi-Fi – sieci bezprzewodowe
 
 2. Połącz się z Internetem
