@@ -25,48 +25,15 @@
   * [**5. Partycjonuj dyski**](#5-partycjonuj-dyski)
   * [**6. Formatowanie partycji BIOS with MBR**](#6-Formatowanie-partycji-BIOS-with-MBR)
   * [**7. Zamontuj system plików**](#7-Zamontuj-system-plików)
+  * [**8. Instalacja systemu podstawowego**](#-Instalacja-systemu-podstawowego)
   * [****]()
   * [****]()
   * [****]()
   * [****]()
   * [****]()
-  * [****]()
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+ 
 
-1. Konfiguracja Wi-Fi – sieci bezprzewodowe
 
-2. Połącz się z Internetem
-
-3. Układ klawiatury
-
-4. Zaktualizuj systemowy zegar
-
-5. Partycjonuj dyski
-6. Formatowanie partycji BIOS with MBR
-
-7. Zamontuj system plików
-
-8. Instalacja systemu podstawowego
 
 9. Generowanie fstab
 
