@@ -16,9 +16,9 @@
 
 #### Spis treści 
 
-* [**Łączenie z Internetem**](https://github.com/enemysmasher/Archlinux-BIOS/blob/master/README.md#przed-instalacj%C4%85)
-  * [**Konfiguracja Wi-Fi – sieci bezprzewodowe**](#Konfiguracja Wi-Fi – sieci bezprzewodowe)
-  * [**Wstępna konfiguracja**](#Wstępna-konfiguracja)
+* [**Łączenie z Internetem**](#przed-instalacj%C4%85)
+  * [**Konfiguracja Wi-Fi – sieci bezprzewodowe**](#1-konfiguracja-wi-fi--sieci-bezprzewodowe)
+  * [**Połącz się z Internetem**](#2-po%C5%82%C4%85cz-si%C4%99-z-internetem)
 * [**Partycjonowanie dysku**](#Partycjonowanie-i-formatowanie-dysków)
   * [**LVM**](#LVM)
   * [**LVM i LUKS**](#LVM-i-LUKS)
