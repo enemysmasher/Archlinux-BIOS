@@ -28,28 +28,42 @@
   * [**8. Instalacja systemu podstawowego**](#8-Instalacja-systemu-podstawowego)
   * [**9. Generowanie fstab**](#9-Generowanie-fstab)
   * [**10. Wejdź przez chroot do nowego systemu**](#10-Wejdź-przez-chroot-do-nowego-systemu)
+  * [**11. Strefa czasowa - Ustaw czas**](#11-Strefa-czasowa---Ustaw-czas)
+  * [**12. Konfiguracja języka**](#12-Konfiguracja-języka)
+  * [**13. Plik konfiguracyjny dla ustawień regionalnych - Ustaw zmienną**](#13-Plik-konfiguracyjny-dla-ustawień-regionalnych---Ustaw-zmienną)
+  * [**14. Plik konfiguracyjny konsoli wirtualnej - Czcionka konsoli.**]()
+  * [**15. Ustaw nazwę hosta**]()
+  * [**16. Musisz również dodać tę nazwę do pliku hosts**]()
+  * [**17. Konfiguracja sieci**]()
   * [****]()
   * [****]()
   * [****]()
+  * [****]()
+  * [****]()
+  * [****]()
+  * [****]()
+  * [****]()
+  * [****]()
+  * [****]()
+  * [****]()
+  
  
 
 
 
 
 
-11. Strefa czasowa - Ustaw czas
 
-12. Konfiguracja języka
 
-13. Plik konfiguracyjny dla ustawień regionalnych - Ustaw zmienną
 
-14. Plik konfiguracyjny konsoli wirtualnej - Czcionka konsoli.
 
-15. Ustaw nazwę hosta
 
-16. Musisz również dodać tę nazwę do pliku hosts
 
-17. Konfiguracja sieci
+
+
+
+
+
 
 18. Włącz sieć
 
