@@ -17,11 +17,11 @@
 #### Spis treści 
 
 * [**Arch Linux - instalacja i konfiguracja**](#arch-linux---instalacja-i-konfiguracja)
-* [**przed instalacją**](#przed-instalacj%C4%85)
-* [**1. Konfiguracja Wi-Fi – sieci bezprzewodowe**](#1-konfiguracja-wi-fi--sieci-bezprzewodowe)
-* [**2. Połącz się z Internetem**](#2-po%C5%82%C4%85cz-si%C4%99-z-internetem)
-* [**3. Układ klawiatury**](#3-uk%C5%82ad-klawiatury)
-* [**    **](    )
+* [**Przed instalacją**](#przed-instalacj%C4%85)
+  * [**1. Konfiguracja Wi-Fi – sieci bezprzewodowe**](#1-konfiguracja-wi-fi--sieci-bezprzewodowe)
+  * [**2. Połącz się z Internetem**](#2-po%C5%82%C4%85cz-si%C4%99-z-internetem)
+  * [**3. Układ klawiatury**](#3-uk%C5%82ad-klawiatury)
+  * [**    **](    )
 
   
   
