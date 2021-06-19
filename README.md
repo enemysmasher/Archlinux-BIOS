@@ -26,8 +26,8 @@
   * [**6. Formatowanie partycji BIOS with MBR**](#6-Formatowanie-partycji-BIOS-with-MBR)
   * [**7. Zamontuj system plików**](#7-Zamontuj-system-plików)
   * [**8. Instalacja systemu podstawowego**](#8-Instalacja-systemu-podstawowego)
-  * [****]()
-  * [****]()
+  * [**9. Generowanie fstab**](#9-Generowanie-fstab)
+  * [**10. Wejdź przez chroot do nowego systemu**](#10-Wejdź-przez-chroot-do-nowego-systemu)
   * [****]()
   * [****]()
   * [****]()
@@ -35,9 +35,7 @@
 
 
 
-9. Generowanie fstab
 
-10. Wejdź przez chroot do nowego systemu
 
 11. Strefa czasowa - Ustaw czas
 
