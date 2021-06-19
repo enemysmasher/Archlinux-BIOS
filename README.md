@@ -16,7 +16,7 @@
 
 #### Spis treści 
 
-* [**Arch Linux**](#Arch Linux - instalacja i konfiguracja)
+* [**Arch Linux**](#arch-linux)
   * [**Konfiguracja Wi-Fi – sieci bezprzewodowe**](#Konfiguracja Wi-Fi – sieci bezprzewodowe)
   * [**Wstępna konfiguracja**](#Wstępna-konfiguracja)
 * [**Partycjonowanie dysku**](#Partycjonowanie-i-formatowanie-dysków)
