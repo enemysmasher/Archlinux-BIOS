@@ -18,7 +18,7 @@
 
 * [**Arch Linux - instalacja i konfiguracja**](#arch-linux---instalacja-i-konfiguracja)
 * [**przed instalacją**](#przed-instalacj%C4%85)
-* [**Konfiguracja wi-fi**](#1-konfiguracja-wi-fi--sieci-bezprzewodowe)
+* [**1. Konfiguracja Wi-Fi – sieci bezprzewodowe**](#1-konfiguracja-wi-fi--sieci-bezprzewodowe)
 * [**Partycjonowanie dysku**](#Partycjonowanie-i-formatowanie-dysków)
 * [**LVM**](#LVM)
 * [**LVM i LUKS**](#LVM-i-LUKS)
