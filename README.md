@@ -119,7 +119,7 @@ root@archiso ~ # iwctl
 ##### **Wipefs** to polecenie czyści tablice partycji, kasuje wszystko z dysku. Potem **cfdisk** i wybierasz **dos**. Potem lecisz już z instalacją Archa.
 
 ##### **Przygotowanie dysku:**
-##### DOS (BIOS z MBR)
+##### DOS (BIOS/LEGACY)
 
 | Potrzebny | Partycja  | Typ partycji   | Punkt montażu | Flagi      |
 |-----------|-----------|----------------|---------------|------------|
