@@ -134,7 +134,7 @@ root@archiso ~ # iwctl
  
 ##### Przy tym kroku należy postępować ostrożnie ponieważ można przypadkiem usunąć partycje.
   
-##### Na początek musimy odnaleźć dysk, na którym nasz system ma być zainstalowany. Wyobraź sobie więc, że w twoim przypadku jesteś równoważny i np. która jest twoją partycją główną będącą odpowiednikiem czegoś takiego jak /dev/nvme0n1  /dev/sda  /dev/mmcblk0
+##### Na początek musimy odnaleźć dysk, na którym nasz system ma być zainstalowany. Wyobraź sobie więc, że w twoim przypadku jesteś równoważny i np. która jest twoją partycją główną będącą odpowiednikiem czegoś takiego jak /dev/nvme0nX  /dev/sdaX  /dev/mmcblk0
 ```markdown
 # fdisk -l
 ```
@@ -230,16 +230,22 @@ root@archiso ~ # iwctl
 ----- 
 #### 8. Instalacja systemu podstawowego
 ##### Teraz rozpoczynamy proces instalacji.
+##### Instalacja nowego jądra linux, linux-hardened, linux-lts, linux-zen ...
 ##### Pobranie pakietów i instalacja systemu mieści się w jednej komendzie:
+#### Masz do wyboru cztery sposoby
+### Stable Linux Kernel
 ```markdown
 # pacstrap -i /mnt base base-devel bash-completion linux linux-headers linux-firmware nano dhcpcd
 ```
+### Hardened Kernel
 ```markdown
 # pacstrap -i /mnt base base-devel bash-completion linux-hardened linux-hardened-headers linux-firmware nano dhcpcd
 ```
+### Longterm (LTS) Kernel
 ```markdown
 # pacstrap -i /mnt base base-devel bash-completion linux-lts linux-lts-headers linux-firmware nano dhcpcd
 ```
+### Zen Kernel
 ```markdown
 # pacstrap -i /mnt base base-devel bash-completion linux-zen linux-zen-headers linux-firmware nano dhcpcd
 ```
