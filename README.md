@@ -689,11 +689,14 @@ Menedżer wyświetlania SDDM
 <summary>Gnome</summary>
 
 ```markdown
-# pacman -S 
+# pacman -S gnome gdm
 ``` 
 Menedżer wyświetlania
 ```markdown
-# systemctl enable
+# systemctl enable gdm
+```
+```markdown
+# echo "exec gnome-session" > ~/.xinitrc
 ```
 </details>
   
@@ -701,11 +704,14 @@ Menedżer wyświetlania
 <summary>Mate</summary>
 
 ```markdown
-# pacman -S 
+# pacman -S mate lightdm lightdm-gtk-greeter
 ``` 
 Menedżer wyświetlania 
 ```markdown
-# systemctl enable 
+# systemctl enable lightdm
+```
+```markdown
+# echo "exec mate-session" > ~/.xinitrc
 ```
 </details>
   
