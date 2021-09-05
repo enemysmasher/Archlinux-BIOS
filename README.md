@@ -140,17 +140,12 @@ root@archiso ~ # iwctl
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120830795-29df5800-c55f-11eb-8719-29a27ce35004.png" alt="fdisk" width="800"/>
 
-```markdown
-# wipefs -a /dev/sda 
-```
-<img src="https://user-images.githubusercontent.com/43359077/120843200-1d163080-c56e-11eb-82af-1ee05d1dd587.png" alt="wipefs" width="800"/>
-
 ##### **Graficzny (zalecany dla początkujących)**
 ##### cfdisk – szybciej, wygodniej, lepiej?
 ###### Ja preferuje cfdisk - prosta i przejrzysta :hearts:
 
 ```markdown
-# cfdisk /dev/sda
+# cfdisk -z /dev/sda
 ```
 ##### Po uruchomieniu otrzymasz monit w ten sposób:
 ##### **Wybierz typ tabeli dos**.
