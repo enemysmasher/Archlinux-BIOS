@@ -134,7 +134,7 @@ root@archiso ~ # iwctl
  
 ##### Przy tym kroku należy postępować ostrożnie ponieważ można przypadkiem usunąć partycje.
   
-##### Na początek musimy odnaleźć dysk, na którym nasz system ma być zainstalowany.
+##### Na początek musimy odnaleźć dysk, na którym nasz system ma być zainstalowany. Wyobraź sobie więc, że w twoim przypadku jesteś równoważny i np. która jest twoją partycją główną będącą odpowiednikiem czegoś takiego jak /dev/nvme0n1  /dev/sda  /dev/mmcblk0
 ```markdown
 # fdisk -l
 ```
