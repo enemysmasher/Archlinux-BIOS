@@ -232,7 +232,16 @@ root@archiso ~ # iwctl
 ##### Teraz rozpoczynamy proces instalacji.
 ##### Pobranie pakietów i instalacja systemu mieści się w jednej komendzie:
 ```markdown
-# pacstrap -i /mnt base base-devel bash-completion linux linux-firmware linux-headers nano dhcpcd
+# pacstrap -i /mnt base base-devel bash-completion linux linux-headers linux-firmware nano dhcpcd
+```
+```markdown
+# pacstrap -i /mnt base base-devel bash-completion linux-hardened linux-hardened-headers linux-firmware nano dhcpcd
+```
+```markdown
+# pacstrap -i /mnt base base-devel bash-completion linux-lts linux-lts-headers linux-firmware nano dhcpcd
+```
+```markdown
+# pacstrap -i /mnt base base-devel bash-completion linux-zen linux-zen-headers linux-firmware nano dhcpcd
 ```
 ##### Dodałem Nano edytor, ponieważ trzeba edytować niektóre pliki po instalacji.
 ##### Przy pytaniu, jakie pakiety zainstalować wcisnąć ENTER. Poczekaj chwilę, aż się zakończy.
