@@ -679,6 +679,12 @@ Menedżer wyświetlania SDDM
 ```markdown
 # echo "exec startplasma-x11" > ~/.xinitrc
 ```
+##### Uruchom GUI
+##### Aby sprawdzić, czy środowisko graficzne działa, uruchom:
+  
+```markdown
+# startx
+```
 ##### Jeśli chcesz zainstalować dodatki:
 ```markdown
 # pacman -S plasma-pa plasma-nm 
@@ -697,6 +703,12 @@ Menedżer wyświetlania
 ```
 ```markdown
 # echo "exec gnome-session" > ~/.xinitrc
+```
+##### Uruchom GUI
+##### Aby sprawdzić, czy środowisko graficzne działa, uruchom:
+  
+```markdown
+# startx
 ```
 </details>
   
