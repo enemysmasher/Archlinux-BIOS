@@ -326,7 +326,6 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ##### wpisać poniższy tekst:
 ```yaml
 LANG=pl_PL.UTF-8
-LANGUAGE=pl_PL.UTF-8
 LC_ADDRESS=pl_PL.UTF-8
 LC_COLLATE=pl_PL.UTF-8
 LC_CTYPE=pl_PL.UTF-8
