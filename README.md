@@ -272,8 +272,8 @@ root@archiso ~ # iwctl
 ```markdown
 # arch-chroot /mnt
 ``` 
-<img src="https://user-images.githubusercontent.com/43359077/133001739-7693775d-9025-49f8-a619-9f346687f850.png" alt="arch-chroot" width="800"/>
-
+<img src="https://user-images.githubusercontent.com/43359077/133001793-348e256f-52ba-412d-8e4e-9b929c2c767f.png" alt="arch-chroot" width="800"/>
+  
 ###### [Do góry](#spis-treści)
 -----
 #### 11. Strefa czasowa - Ustaw czas
