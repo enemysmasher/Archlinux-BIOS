@@ -736,7 +736,7 @@ Menedżer wyświetlania
 # systemctl enable lightdm
 ```
 ```markdown
-# echo "exec startxfce4" > ~/.xinitrc
+# echo "exec xfce4-session" > ~/.xinitrc
 ```
 ##### Uruchom GUI
 ##### Aby sprawdzić, czy środowisko graficzne działa, uruchom:
