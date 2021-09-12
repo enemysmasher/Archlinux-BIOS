@@ -13,7 +13,7 @@
 ```
 ##### Natomiast do wykonania bootowalnego pendrive-a pod Windowsem najlepiej jest użyć programu Etcher -> https://www.balena.io/etcher/ lub Ventoy -> https://www.ventoy.net/en/index.html. Wypalamy obraz przy pomocy programu UltraISO-> https://www.ultraiso.com np płycie a następnie uruchamiamy system z wybranego nośnika. Po uruchomieniu ujrzymy ekran do wyboru wersji systemu 32 lub 64 bitowy.
 ##### Archlinux jest to świetny system dla naszego desktopa?
-
+##### W tym pokażę Ci, jak wykonać minimalną instalację Arch Linux. Zacznijmy.
 #### Spis treści 
 
 * [**Arch Linux - instalacja i konfiguracja**](#arch-linux---instalacja-i-konfiguracja)
@@ -233,19 +233,19 @@ root@archiso ~ # iwctl
 ##### Instalacja nowego jądra linux, linux-hardened, linux-lts, linux-zen ...
 ##### Pobranie pakietów i instalacja systemu mieści się w jednej komendzie:
 #### Masz do wyboru cztery sposoby
-### Stable Linux Kernel
+##### Stable Linux Kernel
 ```markdown
 # pacstrap -i /mnt base base-devel bash-completion linux linux-headers linux-firmware nano dhcpcd
 ```
-### Hardened Kernel
+##### Hardened Kernel
 ```markdown
 # pacstrap -i /mnt base base-devel bash-completion linux-hardened linux-hardened-headers linux-firmware nano dhcpcd
 ```
-### Longterm (LTS) Kernel
+##### Longterm (LTS) Kernel
 ```markdown
 # pacstrap -i /mnt base base-devel bash-completion linux-lts linux-lts-headers linux-firmware nano dhcpcd
 ```
-### Zen Kernel
+##### Zen Kernel
 ```markdown
 # pacstrap -i /mnt base base-devel bash-completion linux-zen linux-zen-headers linux-firmware nano dhcpcd
 ```
@@ -258,11 +258,11 @@ root@archiso ~ # iwctl
 -----  
 #### 9. Generowanie fstab
 ```markdown
-# genfstab -U -p /mnt >> /mnt/etc/fstab
+# genfstab -U /mnt >> /mnt/etc/fstab
 ```
 ##### oraz sprawdzenie czy jest poprawny.
 ```markdown
-# genfstab -U -p /mnt /mnt/etc/fstab
+# cat /mnt/etc/fstab
 ```
 <img src="https://user-images.githubusercontent.com/43359077/120879502-13b7b300-c5c4-11eb-9d42-d3f8b5de4a62.png" alt="fstab" width="800"/>
  
