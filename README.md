@@ -528,11 +528,11 @@ root ALL=(ALL) ALL
 ```yaml
 tester ALL=(ALL) ALL
 ```  
-######**przed:**
+###### **przed:**
   
 <img src="https://user-images.githubusercontent.com/43359077/120902340-266fcd80-c640-11eb-8777-9d5ddae36df2.png" alt="root1" width="800"/>
  
-#######**po:**
+####### **po:**
   
 <img src="https://user-images.githubusercontent.com/43359077/120902346-32f42600-c640-11eb-80bc-6b7862fff742.png" alt="root2" width="800"/>
 
