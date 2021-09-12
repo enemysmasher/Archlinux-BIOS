@@ -714,14 +714,20 @@ Menedżer wyświetlania
 <summary>Mate</summary>
 
 ```markdown
-# pacman -S 
+# pacman -S mate lightdm lightdm-gtk-greeter
 ``` 
 Menedżer wyświetlania 
 ```markdown
-# systemctl enable 
+# systemctl enable lightdm 
 ```
 ```markdown
-# 
+# echo "exec mate-session" > ~/.xinitrc
+```
+##### Uruchom GUI
+##### Aby sprawdzić, czy środowisko graficzne działa, uruchom:
+  
+```markdown
+# startx
 ```
 </details>
   
@@ -750,11 +756,11 @@ Menedżer wyświetlania
 <summary>Cinnamon</summary>
 
 ```markdown
-# pacman -S pacman -S cinnamon cinnamon-translations mdm
+# pacman -S pacman -S cinnamon cinnamon-translations lightdm lightdm-gtk-greeter
 ``` 
 Menedżer wyświetlania  
 ```markdown
-# systemctl enable mdm
+# systemctl enable lightdm
 ```
 ```markdown
 # echo "cinnamon-session" > ~/.xinitrc
@@ -771,11 +777,20 @@ Menedżer wyświetlania
 <summary>Enlightenment</summary>
 
 ```markdown
-# pacman -S pacman -S 
+# pacman -S pacman -S enlightenment efl lightdm lightdm-gtk-greeter
 ``` 
 Menedżer wyświetlania  
 ```markdown
-# systemctl enable 
+# systemctl enable lightdm
+```
+```markdown
+# echo "enlightenment_start" > ~/.xinitrc
+```
+##### Uruchom GUI
+##### Aby sprawdzić, czy środowisko graficzne działa, uruchom:
+  
+```markdown
+# startx
 ```
 </details>
   
@@ -783,11 +798,24 @@ Menedżer wyświetlania
 <summary>Deepin</summary>
 
 ```markdown
-# pacman -S pacman -S 
+# pacman -S pacman -S deepin
 ``` 
 Menedżer wyświetlania  
 ```markdown
-# systemctl enable 
+# systemctl enable lightdm
+```
+```markdown
+# echo "startdde" > ~/.xinitrc
+```
+Poniższy do edytora tekstu Nano.
+```yaml
+greeter-session=lightdm-deepin-greeter
+```
+##### Uruchom GUI
+##### Aby sprawdzić, czy środowisko graficzne działa, uruchom:
+  
+```markdown
+# startx
 ```
 </details>
   
