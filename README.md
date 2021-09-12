@@ -26,7 +26,7 @@
   * [**6. Formatowanie partycji BIOS z MBR**](#6-formatowanie-partycji-bios-z-mbr)
   * [**7. Zamontuj system plików**](#7-zamontuj-system-plików)
   * [**8. Instalacja systemu podstawowego**](#8-instalacja-systemu-podstawowego)
-  * [**9. Generowanie fstab**](#9-generowanie-fstab)
+  * [**9. Gu
   * [**10. Wejdź przez chroot do nowego systemu**](#10-wejdź-przez-chroot-do-nowego-systemu)
   * [**11. Strefa czasowa - Ustaw czas**](#11-strefa-czasowa---ustaw-czas)
   * [**12. Konfiguracja języka**](#12-konfiguracja-języka)
@@ -264,13 +264,13 @@ root@archiso ~ # iwctl
 ```markdown
 # cat /mnt/etc/fstab
 ```
-<img src="https://user-images.githubusercontent.com/43359077/120879502-13b7b300-c5c4-11eb-9d42-d3f8b5de4a62.png" alt="fstab" width="800"/>
- 
+<img src="https://user-images.githubusercontent.com/43359077/133001029-23ca40d2-4938-4747-a6e3-45bf793b7b8a.png" alt="fstab" width="800"/>
+
 ###### [Do góry](#spis-treści)
 -----
 #### 10. Wejdź przez chroot do nowego systemu
 ```markdown
-# arch-chroot /mnt /bin/bash
+# arch-chroot /mnt
 ``` 
 <img src="https://user-images.githubusercontent.com/43359077/120879922-24b5f380-c5c7-11eb-9f8b-b1336162493c.png" alt="arch-chroot" width="800"/>
 
