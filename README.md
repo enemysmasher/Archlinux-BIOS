@@ -40,7 +40,7 @@
   * [**20. Hasło użytkownika root**](#20-hasło-użytkownika-root)
   * [**21. Mikrokodu**](#21-jeśli-posiadasz-procesor-intela-zainstaluj-pakiet-intel-ucode)
   * [**22. BIOS GRUB**](#22-bios-grub)
-  * [**23. TRIM**](#23-teraz-wiele-osób-ma-dyski-ssd-które-obsługują-trim-dla-bezpiecznej-cotygodniowej-usługi-trim-na-dyskach-ssd-i-wszystkich-innych-urządzeniach-które-umożliwiają-obsługę-trim)
+  * [**23. TRIM**](#23-włączanie-trim-dla-dysków-ssd)
   * [**24. Wyjście z chroot**](#24-wyjście-z-chroot)
   * [**25. Logowanie się do systemu**](#25-logowanie-się-do-systemu)
   * [**26. Sprawdź, czy internet wifi**](#26-sprawdź-czy-internet-wifi)
