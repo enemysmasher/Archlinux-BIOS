@@ -326,18 +326,6 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 ##### wpisać poniższy tekst:
 ```yaml
 LANG=pl_PL.UTF-8
-LC_ADDRESS=pl_PL.UTF-8
-LC_COLLATE=pl_PL.UTF-8
-LC_CTYPE=pl_PL.UTF-8
-LC_IDENTIFICATION=pl_PL.UTF-8
-LC_MONETARY=pl_PL.UTF-8
-LC_MESSAGES=pl_PL.UTF-8
-LC_MEASUREMENT=pl_PL.UTF-8
-LC_NAME=pl_PL.UTF-8
-LC_NUMERIC=pl_PL.UTF-8
-LC_PAPER=pl_PL.UTF-8
-LC_TELEPHONE=pl_PL.UTF-8
-LC_TIME=pl_PL.UTF-8
 ```
 zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano) 
 
@@ -465,7 +453,8 @@ zapisać **ctrl+O** (zapisuje), **ENTER** później **ctrl+X** (zamyka nano)
 
 ###### [Do góry](#spis-treści)  
 -----
-#### 23. Teraz wiele osób ma dyski SSD, które obsługują TRIM. Dla bezpiecznej, cotygodniowej usługi TRIM na dyskach SSD i wszystkich innych urządzeniach, które umożliwiają obsługę TRIM:
+#### 23. Włączanie TRIM dla dysków SSD
+##### Teraz wiele osób ma dyski SSD, które obsługują TRIM. Dla bezpiecznej, cotygodniowej usługi TRIM na dyskach SSD i wszystkich innych urządzeniach, które umożliwiają obsługę TRIM:
 ```markdown
 # systemctl enable fstrim.timer
 ```
