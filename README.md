@@ -45,7 +45,7 @@
   * [**25. Logowanie się do systemu**](#25-logowanie-się-do-systemu)
   * [**26. Sprawdź, czy internet wifi**](#26-sprawdź-czy-internet-wifi)
   * [**27. Dodaj użytkownika**](#27-dodaj-użytkownika)
-  * [**28. SUDO - nadawanie uprawnień użytkownikom Linux**](#28-nast%C4%99pnie-w%C5%82%C4%85cz-uprawnienia-sudoers-dla-nowo-utworzonego-u%C5%BCytkownika)
+  * [**28. SUDO - nadawanie uprawnień użytkownikom Linux**](#28-następnie-włącz-uprawnienia-sudoers-dla-nowo-utworzonego-użytkownika)
   * [**29. Standardowo plik konfiguracyjny Pacmana**](#29-pacmanconf---plik-konfiguracyjny-menedżera-pakietów-pacman)
   * [**30. Xorg**](#30-instalacja-xorg-a)
   * [**31. Sterownik graficzny**](#31-wybieramy-dodatkowo-sterownik-poniżej-dla-swojej-karty-graficznej)
@@ -528,11 +528,11 @@ root ALL=(ALL) ALL
 ```yaml
 tester ALL=(ALL) ALL
 ```  
-**przed**
+######**przed:**
   
 <img src="https://user-images.githubusercontent.com/43359077/120902340-266fcd80-c640-11eb-8777-9d5ddae36df2.png" alt="root1" width="800"/>
  
-**po**
+#######**po:**
   
 <img src="https://user-images.githubusercontent.com/43359077/120902346-32f42600-c640-11eb-80bc-6b7862fff742.png" alt="root2" width="800"/>
 
@@ -545,14 +545,14 @@ tester ALL=(ALL) ALL
 ```
 ##### Aby włączyć repozytorium multilib, odkomentuj, usuwając znak **#**
 ##### Za pomocą klawiszy strzałek przewiń ekran w dół i znajdź linię
-###### przed
+###### **przed:**
 ```yaml
 #[multilib]
 #Include = /etc/pacman.d/mirrorlist
 ```
 <img src="https://user-images.githubusercontent.com/43359077/122675591-66a38400-d1da-11eb-9309-95cf78d7778f.png" alt="multilib1" width="1000"/>
  
-###### po  
+###### **po:**  
 ```yaml
 [multilib]
 Include = /etc/pacman.d/mirrorlist
@@ -573,7 +573,7 @@ zapisać ctrl+O -(zapisuje), ENTER później ctrl+X (zamyka nano)
 ##### Są to niektóre pakiety potrzebne do prawidłowego działania niektórych urządzeń wejściowych. Instalacja ich nie szkodzi, nawet jeśli ich nie potrzebujesz
 ##### Xorg to serwer wyświetlania, którego użyjemy
 ```markdown
-# pacman -S xorg xorg-xinit xterm
+# pacman -S xorg xorg-xinit xorg-xrandr xterm
 ```
 ###### [Do góry](#spis-treści)
 -----
@@ -693,7 +693,7 @@ Menedżer wyświetlania SDDM
 <summary>Gnome</summary>
 
 ```markdown
-# pacman -S gnome gdm
+# pacman -S gnome gnome-extra gdm
 ``` 
 Menedżer wyświetlania
 ```markdown
@@ -714,14 +714,14 @@ Menedżer wyświetlania
 <summary>Mate</summary>
 
 ```markdown
-# pacman -S mate lightdm lightdm-gtk-greeter
+# pacman -S 
 ``` 
 Menedżer wyświetlania 
 ```markdown
-# systemctl enable lightdm
+# systemctl enable 
 ```
 ```markdown
-# echo "exec mate-session" > ~/.xinitrc
+# 
 ```
 </details>
   
@@ -729,11 +729,20 @@ Menedżer wyświetlania
 <summary>Xfce</summary>
 
 ```markdown
-# pacman -S 
+# pacman -S xfce4 lightdm lightdm-gtk-greeter 
 ``` 
 Menedżer wyświetlania 
 ```markdown
-# systemctl enable 
+# systemctl enable lightdm
+```
+```markdown
+# echo "exec startxfce4" > ~/.xinitrc
+```
+##### Uruchom GUI
+##### Aby sprawdzić, czy środowisko graficzne działa, uruchom:
+  
+```markdown
+# startx
 ```
 </details>
 
@@ -741,11 +750,20 @@ Menedżer wyświetlania
 <summary>Cinnamon</summary>
 
 ```markdown
-# pacman -S pacman -S 
+# pacman -S pacman -S cinnamon cinnamon-translations mdm
 ``` 
 Menedżer wyświetlania  
 ```markdown
-# systemctl enable 
+# systemctl enable mdm
+```
+```markdown
+# echo "cinnamon-session" > ~/.xinitrc
+```
+##### Uruchom GUI
+##### Aby sprawdzić, czy środowisko graficzne działa, uruchom:
+  
+```markdown
+# startx
 ```
 </details>
   
