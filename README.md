@@ -670,7 +670,7 @@ zapisać ctrl+O -(zapisuje), ENTER później ctrl+X (zamyka nano)
 ```markdown
 # pacman -S plasma-desktop sddm
 ```
-Menedżer wyświetlania SDDM
+Menedżer wyświetlania
 ```markdown
 # systemctl enable sddm
 ```
@@ -815,14 +815,22 @@ Menedżer wyświetlania
 </details>
   
 <details>
-<summary>Budgie</summary>
+<summary>Openbox</summary>
 
 ```markdown
-# pacman -S pacman -S 
+# pacman -S pacman -S openbox lightdm lightdm-gtk-greeter
 ``` 
 Menedżer wyświetlania  
 ```markdown
-# systemctl enable 
+# systemctl enable lightdm
+```
+```markdown
+# echo "exec openbox-session" > ~/.xinitrc
+```
+##### Uruchom GUI
+##### Aby sprawdzić, czy środowisko graficzne działa, uruchom:
+```markdown
+# startx
 ```
 </details>
   
