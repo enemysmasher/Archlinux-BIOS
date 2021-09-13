@@ -798,22 +798,17 @@ Menedżer wyświetlania
 <summary>Deepin</summary>
 
 ```markdown
-# pacman -S pacman -S deepin
+# pacman -S pacman -S 
 ``` 
 Menedżer wyświetlania  
 ```markdown
-# systemctl enable lightdm
+# systemctl enable 
 ```
 ```markdown
-# echo "startdde" > ~/.xinitrc
-```
-Poniższy do edytora tekstu Nano.
-```yaml
-greeter-session=lightdm-deepin-greeter
+# echo "" > ~/.xinitrc
 ```
 ##### Uruchom GUI
 ##### Aby sprawdzić, czy środowisko graficzne działa, uruchom:
-  
 ```markdown
 # startx
 ```
