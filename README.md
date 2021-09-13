@@ -912,10 +912,6 @@ Menedżer wyświetlania
   
   
 ###### [Do góry](#spis-treści)
-
-  
-  
-  
   
 
 
